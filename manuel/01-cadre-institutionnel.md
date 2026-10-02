@@ -190,7 +190,7 @@ L'**ORIAS** est l'**Organisme pour le registre unique des intermédiaires en ass
 > 🆕 **Financement participatif** : depuis le **10 novembre 2023**, le règlement européen **ECSP** a supprimé le statut de **CIP** (conseiller en investissements participatifs). Les plateformes sont devenues des **PSFP** (prestataires de services de financement participatif), **agréés par l'AMF** et dotés d'un passeport européen. Les questions 101 et 115 de la base reposent encore sur le statut de CIP (voir l'annexe D).
 
 <!-- IDS:1.3 -->
-📌 **Questions de la base — §1.3 (55)** : 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 100, 101⚠️, 102, 103, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115⚠️, 118, 119, 121, 122, 123, 124, 125, 126, 127, 267, 268, 269, 278, 292, 313, 314, 323, 2629, 2632b, 2633, 2636, 2672
+📌 **Questions de la base — §1.3 (56)** : 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 100, 101⚠️, 102, 103, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115⚠️, 118, 119, 121, 122, 123, 124, 125, 126, 127, 267, 268, 269, 278, 292, 313, 314, 323, 2629, 2632b, 2633, 2636, 2672, 2673
 <!-- /IDS -->
 
 ---

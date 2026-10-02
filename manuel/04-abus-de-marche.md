@@ -96,7 +96,7 @@ Le détenteur d'une information privilégiée **s'abstient de toute opération, 
 > La définition de l'information privilégiée et les obligations d'abstention restent inchangées.
 
 <!-- IDS:4 -->
-📌 **Questions de la base — §4 (38)** : 376, 378, 388, 390, 395, 540, 541, 542, 543, 545, 546, 547, 548, 550, 551, 553, 555, 557, 558, 559, 560, 561, 563, 564, 565, 566, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 2688
+📌 **Questions de la base — §4 (39)** : 376, 378, 388, 390, 395, 540, 541, 542, 543, 545, 546, 547, 548, 550, 551, 553, 555, 557, 558, 559, 560, 561, 563, 564, 565, 566, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 2687, 2688
 <!-- /IDS -->
 
 ---

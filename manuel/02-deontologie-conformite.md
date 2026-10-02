@@ -65,7 +65,7 @@
   - Exemple type : pousser les conseillers à vendre le **produit le plus commissionné** plutôt que le plus adapté.
 - Les mesures doivent être **raisonnables et appropriées**, jamais « radicales ». Le PSI **n'a pas à refuser systématiquement** l'opération ni à demander l'accord de l'AMF.
 - La **politique de gestion des conflits** est **fixée par le PSI lui-même**. Pour un CIF ou une entité **appartenant à un groupe**, elle tient compte des **activités des autres membres du groupe**.
-- Le PSI tient un **registre**, mis à jour **régulièrement**, des services exposés à un conflit présentant un risque pour les clients.
+- Le PSI tient un **registre**, mis à jour **régulièrement**, des services exposés à un conflit présentant un risque pour les clients. La **politique** de gestion des conflits d'un CIF est **révisée au moins une fois par an**.
 - Il peut organiser une **surveillance séparée** des personnes impliquées dans des activités conflictuelles.
 - Les activités **structurellement en conflit** sont la **négociation pour compte propre** et l'**exécution d'ordres pour compte de tiers**.
 - **Si les mesures ne suffisent pas**, le PSI **informe clairement le client** avant d'agir, en dernier recours. Il n'informe ni l'ACPR, ni le commissaire aux comptes, ni le dépositaire.
@@ -104,7 +104,7 @@
 Depuis MiFID 2, les **conversations téléphoniques et communications électroniques** liées à des ordres ou à des transactions sont **enregistrées**. Le client en est **informé**. Les enregistrements sont **conservés 5 ans**, et jusqu'à 7 ans si l'autorité le demande.
 
 <!-- IDS:2.2 -->
-📌 **Questions de la base — §2.2 (36)** : 363, 365, 366, 367, 368, 369, 372, 373, 374, 375, 380, 381, 382, 383, 385, 386, 391, 393, 396, 397, 401, 402, 403, 405, 406, 447, 452, 463, 464, 806, 808, 2558, 2559, 2573, 2574, 2594⚠️
+📌 **Questions de la base — §2.2 (37)** : 363, 365, 366, 367, 368, 369, 372, 373, 374, 375, 380, 381, 382, 383, 385, 386, 391, 393, 396, 397, 401, 402, 403, 405, 406, 447, 452, 463, 464, 806, 808, 2558, 2559, 2572, 2573, 2574, 2594⚠️
 <!-- /IDS -->
 
 ---

@@ -46,7 +46,7 @@ Le blanchiment est un **délit**, ni une contravention, ni une simple infraction
 | Acteur | Ce qu'il est | Ce qu'il fait |
 |---|---|---|
 | **GAFI** (Groupe d'action financière, créé en 1989 par le G7) | **Organisme intergouvernemental** regroupant un **nombre limité de pays**. Il ne dépend ni de l'ONU, ni de l'OCDE, ni du FMI. | **Conçoit les normes** (ses 40 recommandations) et **impulse la stratégie** mondiale de lutte contre le blanchiment et le financement du terrorisme ; fait de la **coopération internationale** un objectif central. Pour les crypto-actifs liés au terrorisme, il recommande le **gel sans délai** des avoirs. |
-| **TRACFIN** (Traitement du renseignement et action contre les circuits financiers clandestins) | **Cellule de renseignement financier française** : un **service à compétence nationale rattaché au ministère de l'Économie et des Finances** | **Reçoit et analyse les déclarations de soupçon** (blanchiment ET terrorisme : **destinataire exclusif**), **enquête** puis **saisit le procureur de la République**. Il **ne sanctionne pas** et ne contrôle pas les dispositifs. |
+| **TRACFIN** (Traitement du renseignement et action contre les circuits financiers clandestins) | **Cellule de renseignement financier française** : un **service à compétence nationale rattaché au ministère de l'Économie et des Finances** | **Reçoit et analyse les déclarations de soupçon** (blanchiment ET terrorisme : **destinataire exclusif**), **enquête**, y compris sur des fraudes comme les **faux ordres de virement**, puis **saisit le procureur de la République**. Il **ne sanctionne pas** et ne contrôle pas les dispositifs. |
 | **ACPR** | Superviseur des banques et des assureurs | **Contrôle et sanctionne** leur dispositif anti-blanchiment, y compris le manquement à déclarer à TRACFIN |
 | **AMF** | Superviseur des SGP, CIF, PSCA/PSAN… | **Contrôle** le dispositif anti-blanchiment des **sociétés de gestion** (et des CIF) |
 | **EBA** | Autorité bancaire européenne | Orientations anti-blanchiment au niveau européen (ce rôle passe progressivement à l'AMLA) |
@@ -131,7 +131,7 @@ Le professionnel **évalue le risque de chaque client et de chaque opération** 
 - **FATCA** (*Foreign Account Tax Compliance Act*) : **loi américaine** contre l'**évasion fiscale des contribuables américains** via leurs comptes à l'étranger. À l'entrée en relation, le client remplit une **auto-certification fiscale**.
 - **EAI** (échange automatique d'informations, norme **OCDE**, « CRS ») : les États signataires échangent **systématiquement** les informations sur les **comptes financiers** ouverts chez eux, et pas toutes les données personnelles.
 - **Gel des avoirs et embargos** :
-  - les mesures nationales de gel s'imposent à **toute personne physique ou morale** ;
+  - les mesures nationales de gel s'imposent à **toute personne physique ou morale** ; face à un client visé, l'établissement **suspend immédiatement toutes les opérations au débit et au crédit** de son compte, sans attendre d'autorisation ;
   - les PSAN appliquent l'intégralité du dispositif ;
   - d'après la base, les **courtiers d'assurance** ne sont pas visés par les mesures de gel.
 
@@ -140,7 +140,7 @@ Le professionnel **évalue le risque de chaque client et de chaque opération** 
 ---
 
 <!-- IDS:3 -->
-📌 **Questions de la base — §3 (82)** : 331, 470, 471, 472, 473, 474, 475, 476, 478, 480, 481, 482, 485, 486, 488, 489, 490, 491, 493, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 508, 509, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 539, 727, 730, 753, 791, 1127, 2554, 2560, 2563, 2575, 2576, 2577, 2579, 2589, 2597, 2598, 2599, 2641, 2642, 2684, 2685, 2686
+📌 **Questions de la base — §3 (84)** : 331, 470, 471, 472, 473, 474, 475, 476, 478, 480, 481, 482, 485, 486, 488, 489, 490, 491, 493, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 508, 509, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 539, 727, 730, 753, 791, 1127, 2554, 2560, 2561, 2563, 2575, 2576, 2577, 2579, 2589, 2590, 2597, 2598, 2599, 2641, 2642, 2684, 2685, 2686
 <!-- /IDS -->
 
 ---
