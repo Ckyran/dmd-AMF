@@ -57,7 +57,7 @@
 - Les **associations de CIF sont agréées par l'AMF**. Chaque CIF adhère à **une et une seule** association, qui exerce le **premier niveau de contrôle**. Toute **modification du code de bonne conduite** d'une association doit être **approuvée au préalable par l'AMF**.
 
 <!-- IDS:1.1 -->
-📌 **Questions de la base — §1.1 (34)** : 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23⚠️, 25, 26, 27, 28, 29, 31, 32, 34, 35, 311, 1079, 2604, 2628, 2668
+📌 **Questions de la base — §1.1 (35)** : 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23⚠️, 25, 26, 27, 28, 29, 31, 32, 34, 35, 311, 1079, 2604, 2628, 2668, 2669
 <!-- /IDS -->
 
 ---
