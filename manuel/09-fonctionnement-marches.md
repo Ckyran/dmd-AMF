@@ -192,3 +192,7 @@ Les **PSI** déclarent la **liste de tous les ordres exécutés**, **avec l'iden
 10. Reporting des transactions : **J+1 avec l'identité des clients** ; **HFT** : plus de **2 messages par seconde**.
 11. **APA** = publie l'OTC sous 15 min, gratuitement ; **CTP** = consolide ; **ARM** = déclare au régulateur.
 12. Agences de notation : **risque de crédit**, méthodes publiques, **supervisées par l'ESMA**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](08-gestion-collective-finance-durable.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](10-post-marche-infrastructures.md)

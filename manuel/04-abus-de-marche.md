@@ -111,3 +111,7 @@ Le détenteur d'une information privilégiée **s'abstient de toute opération, 
 7. **Front running** (passer devant l'ordre du client) · **late trading** (ordre après l'heure limite → contrôlé par le **centralisateur**) · **market timing** (arbitrage sur l'écart de VL) → **interdits**.
 8. Soupçon d'abus → **déclaration à l'AMF, obligatoire, sans retard**.
 9. Sanctions AMF : **100 M€ ou 10 fois le profit** ; pénal : **5 ans**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](03-securite-financiere.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](05-commercialisation-demarchage.md)

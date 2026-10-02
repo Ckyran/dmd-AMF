@@ -104,3 +104,7 @@
 6. Introduction en bourse : **25 % ou 5 % ≥ 5 M€** ; ordres de l'OPO **révocables**.
 7. **OPA = espèces**, **OPE = titres**, **mixte = les deux** ; **30 % = offre obligatoire** ; **amicale** = recommandée par le CA de la cible ; **concert** = politique commune.
 8. Augmentation de capital : **AGE**, en **numéraire ou gratuite** ; **split** = division du nominal, **pas** une augmentation ; **fusion** = une société subsiste, nouvelles actions pour les absorbés.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](10-post-marche-infrastructures.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](12-bases-comptables-fiscales.md)

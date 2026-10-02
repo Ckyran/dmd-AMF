@@ -170,3 +170,7 @@ Démarcher par téléphone un consommateur inscrit sur la **liste d'opposition**
 9. **DICI** : remis **avant**, visé par l'AMF, échelle **1 à 7**, frais en %, performances nettes → remplacé par le **DIC PRIIPs** depuis 2023.
 10. **PRIIPs** : UC, FIA, EMTN, obligations à formule ; **4 scénarios** ; **pas** un document publicitaire.
 11. Frais : **en € et en %**, **au moins une fois par an** ; souscription et rachat **hors VL**, frais de gestion **dans la VL**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](04-abus-de-marche.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](06-relations-clients.md)

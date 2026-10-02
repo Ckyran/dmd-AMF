@@ -4,7 +4,7 @@
 > Répartition : §1.1 (2) · §1.2.1 (2) · §1.2.2 (1) · §1.3 (3) · §1.5.1 (2) · §1.5.2 (2) · §1.8 (2).
 > Le thème pèse lourd (12 % de l'examen) mais il est très « par cœur ». Les mêmes 5 ou 6 réflexes rapportent la majorité des points.
 
-**Légende** : 🧠 moyen mnémotechnique · ⚠️ piège fréquent · 🆕 mise à jour depuis la base · 📌 numéros des questions de ta base Excel (⚠️ = réponse de la base à lire avec la note de l'annexe D).
+**Légende** : 🧠 moyen mnémotechnique · ⚠️ piège fréquent · 🆕 mise à jour depuis la base · 📌 numéros des questions de ta base Excel (⚠️ = réponse de la base à lire avec la note de l'annexe A).
 
 ---
 
@@ -40,7 +40,7 @@
 - **Commission des sanctions** (12 membres, distincte du Collège) : **prononce** les sanctions (avertissement, blâme, interdiction d'exercer, sanction pécuniaire).
 
 > ⚠️ La Commission des sanctions **prononce** les sanctions : elle n'est pas « seulement consultative » et ne « transmet pas au procureur ». L'emprisonnement relève du **juge pénal**, jamais de l'AMF.
-> ⚠️ « Adossée à la Banque de France » est la réponse attendue pour l'ACPR, même si un choix « administrative indépendante » apparaît (voir l'annexe D, Q23). Pour l'AMF, la bonne formule est « **autorité publique indépendante** ».
+> ⚠️ « Adossée à la Banque de France » est la réponse attendue pour l'ACPR, même si un choix « administrative indépendante » apparaît (voir l'annexe A, Q23). Pour l'AMF, la bonne formule est « **autorité publique indépendante** ».
 
 ### Les instances consultatives et le HCSF
 
@@ -187,7 +187,7 @@ L'**ORIAS** est l'**Organisme pour le registre unique des intermédiaires en ass
 - **Intermédiaire en biens divers** : il commercialise un bien en mettant en avant son **rendement financier probable** (thème 7.9).
 - **Plateformes de négociation** : elles sont supervisées par l'AMF et l'ACPR. MiFID 2 fixe un **cadre harmonisé** pour les entreprises de pays tiers.
 
-> 🆕 **Financement participatif** : depuis le **10 novembre 2023**, le règlement européen **ECSP** a supprimé le statut de **CIP** (conseiller en investissements participatifs). Les plateformes sont devenues des **PSFP** (prestataires de services de financement participatif), **agréés par l'AMF** et dotés d'un passeport européen. Les questions 101 et 115 de la base reposent encore sur le statut de CIP (voir l'annexe D).
+> 🆕 **Financement participatif** : depuis le **10 novembre 2023**, le règlement européen **ECSP** a supprimé le statut de **CIP** (conseiller en investissements participatifs). Les plateformes sont devenues des **PSFP** (prestataires de services de financement participatif), **agréés par l'AMF** et dotés d'un passeport européen. Les questions 101 et 115 de la base reposent encore sur le statut de CIP (voir l'annexe A).
 
 <!-- IDS:1.3 -->
 📌 **Questions de la base — §1.3 (56)** : 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 100, 101⚠️, 102, 103, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115⚠️, 118, 119, 121, 122, 123, 124, 125, 126, 127, 267, 268, 269, 278, 292, 313, 314, 323, 2629, 2632b, 2633, 2636, 2672, 2673
@@ -359,3 +359,7 @@ Les prêts de la banque centrale sont **toujours garantis par des actifs** (coll
 12. **PIB** = somme des **valeurs ajoutées** des **résidents** ; **croissance** = variation du PIB réel ; **inflation** = hausse générale et durable des prix = baisse du pouvoir d'achat (IPC).
 13. **10 services d'investissement** (RÉ-EX-NÉ-GÉ-CO + 3P + MTF/OTF) ; la recherche et l'analyse financière sont des services **connexes**.
 14. Sanction **administrative** (AMF) ≠ **pénale** (prison, juge) ≠ **civile** (réparation du dommage).
+
+<!-- NAV -->
+---
+[🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](02-deontologie-conformite.md)

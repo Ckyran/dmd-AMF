@@ -169,3 +169,7 @@ Le professionnel **évalue le risque de chaque client et de chaque opération** 
 9. Déclaration de soupçon : **obligatoire, avant l'opération, confidentielle** (sa divulgation est un délit) ; déclarant de bonne foi **protégé**.
 10. **Sapin 2** : plus de **500 salariés ET 100 M€** → cartographie des risques ; **AFA** auprès de la Justice et du Budget.
 11. **FATCA** = loi US, **auto-certification** ; **EAI** = norme **OCDE** sur les **comptes financiers**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](02-deontologie-conformite.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](04-abus-de-marche.md)

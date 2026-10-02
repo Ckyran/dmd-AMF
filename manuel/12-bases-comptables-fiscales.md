@@ -193,3 +193,7 @@
 10. **PEA** : exonéré d'IR après **5 ans** (prélèvements sociaux dus) ; **assurance-vie** : abattement de **4 600 / 9 200 €** après **8 ans**.
 11. **IFI** = **immobilier** seulement, au 1er janvier, remplace l'ISF ; mariés, pacsés et concubins imposés ensemble ; immobilier professionnel exonéré.
 12. **IS** sur les **bénéfices** ; SA = IS de plein droit ; sociétés de personnes = IR (option IS) ; revenus et plus-values financiers au **taux normal** ; **mère-fille = 5 %** imposé ; plus-values **latentes** sur OPC imposées (sauf fonds 90 % actions).
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](11-emissions-operations-titres.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md)

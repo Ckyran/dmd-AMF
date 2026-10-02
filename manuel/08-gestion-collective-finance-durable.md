@@ -342,3 +342,7 @@
 12. Notation extra-financière : **déclarative** (sans l'accord de l'entreprise, payée par les investisseurs) / **sollicitée** (à la demande de l'émetteur) ; **méthodes différentes**.
 13. RSE : **ISO 26000**, loi **PACTE** (art. 1833 C. civ.) ; **DPEF** vérifiée par un **OTI**, remplacée par la **CSRD**.
 14. **SFDR** = **transparence** (entité + produit, site + précontractuel, **FIA compris**) ; **taxonomie** = liste des activités durables ; **Green Deal** = neutralité carbone **2050**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](07-instruments-financiers.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](09-fonctionnement-marches.md)

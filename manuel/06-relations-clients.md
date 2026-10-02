@@ -429,3 +429,7 @@ Un compte-titres peut être **individuel, joint ou indivis**.
 16. Surendettement : rétablissement personnel = **effacement** ; FICP = **Banque de France** ; cessation des paiements = **actif disponible < passif exigible**, déclaration **sous 45 jours**.
 17. FGDR (droit privé, à la demande de l'ACPR) : **100 000 € dépôts / 70 000 € titres**, par client et par établissement, **7 jours ouvrables**.
 18. Options binaires **interdites** aux non pro ; CFD **restreints** (levier) ; publicité électronique **interdite** (Sapin 2) ; démarchage de CFD interdit.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](05-commercialisation-demarchage.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](07-instruments-financiers.md)

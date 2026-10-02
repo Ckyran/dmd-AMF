@@ -70,7 +70,7 @@
 - Elles **dérogent au principe de proportionnalité**.
 - Elles peuvent porter des **droits particuliers de toute nature** : un **avantage pécuniaire** (dividende majoré), plus ou moins de droits de vote…
 - Elles sont émises **en quantité limitée**. **Sans droit de vote**, elles ne peuvent dépasser **la moitié du capital**, et **le quart** dans une société cotée.
-- Le **droit de vote double** permet de voter **deux fois plus**. La base le rattache aux actions de préférence (voir l'annexe D).
+- Le **droit de vote double** permet de voter **deux fois plus**. La base le rattache aux actions de préférence (voir l'annexe A).
 
 > 🆕 **Loi Attractivité (2024)** : les sociétés qui s'introduisent en bourse peuvent émettre des **actions de préférence à droits de vote multiples**.
 
@@ -400,3 +400,7 @@ Il compte **deux compartiments** :
 15. **OPC = OPCVM + FIA** ; **SICAV = actionnaire**, **FCP = copropriétaire** ; **VL = actif net / parts**, à **cours inconnu**, **au moins 2 fois par mois** (vocation générale) ; souscription = **VL + droits d'entrée**, rachat = **VL − commission de rachat**.
 16. **Biens divers** : rendement mis en avant → **dépôt préalable à l'AMF** (2 mois), comptes annuels **certifiés**, sanctions **pénales**.
 17. **Crypto** : pas de cours légal, pas de FGDR ; base = **visa ICO optionnel / PSAN** ; aujourd'hui = **MiCA : PSCA agréés, livre blanc**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](06-relations-clients.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](08-gestion-collective-finance-durable.md)

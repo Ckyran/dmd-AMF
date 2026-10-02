@@ -82,3 +82,7 @@ Le **registre des titres nominatifs** est tenu par **l'émetteur lui-même** (ou
 7. **J+2** ; **propriété transférée au dénouement** ; livraison contre paiement ; monnaie banque centrale = irrévocable.
 8. **EMIR** = **dérivés OTC** : compensation des dérivés standardisés + **déclaration de tous les dérivés**.
 9. **SWIFT** = messagerie, adhérents identifiés par le **BIC**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](09-fonctionnement-marches.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](11-emissions-operations-titres.md)

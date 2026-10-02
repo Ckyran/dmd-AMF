@@ -171,3 +171,7 @@ Depuis MiFID 2, les **conversations téléphoniques et communications électroni
 9. **Lanceur d'alerte** de bonne foi = **protégé** ; l'AMF traite les alertes **confidentiellement**.
 10. Réclamation : **AR sous 10 jours ouvrables, réponse sous 2 mois**, **gratuite**, **tous clients**, enregistrée avec les mesures prises.
 11. **Médiateur AMF** : nommé par le président après avis du Collège, **gratuit**, **tout épargnant** sans seuil, **après une réclamation écrite**, **pas si procès** ; **pas de crédit ni d'assurance-vie**.
+
+<!-- NAV -->
+---
+[⬅️ Thème précédent](01-cadre-institutionnel.md) · [🏠 Sommaire](../README.md) · [Questions à risque](../annexes/A-questions-a-risque.md) · [Mnémos](../annexes/B-mnemotechniques.md) · [Chiffres clés](../annexes/C-chiffres-cles.md) · [Mises à jour](../annexes/D-mises-a-jour-2021-2026.md) · [Thème suivant ➡️](03-securite-financiere.md)
