@@ -82,7 +82,7 @@
 ### Les trois listes
 | Liste | Contenu | Moyen de retenir |
 |---|---|---|
-| **Liste de surveillance** (*watch list*, confidentielle) | Émetteurs et instruments sur lesquels le PSI **détient une information privilégiée** | 🧠 on **surveille**, on ne bloque pas |
+| **Liste de surveillance** (*watch list*, confidentielle, **conservée 5 ans**) | Émetteurs et instruments sur lesquels le PSI **détient une information privilégiée** | 🧠 on **surveille**, on ne bloque pas |
 | **Liste d'interdiction** (*restricted list*) | Émetteurs et instruments sur lesquels le PSI **doit restreindre son activité** (conseil, recherche, compte propre…) | 🧠 on **interdit** certaines activités |
 | **Liste d'initiés** (règlement MAR) | Personnes ayant accès à une information privilégiée pour une opération donnée ; **mise à jour régulièrement** et sans délai, pas une fois par an | 🧠 elle **vit** avec l'opération |
 
@@ -104,7 +104,7 @@
 Depuis MiFID 2, les **conversations téléphoniques et communications électroniques** liées à des ordres ou à des transactions sont **enregistrées**. Le client en est **informé**. Les enregistrements sont **conservés 5 ans**, et jusqu'à 7 ans si l'autorité le demande.
 
 <!-- IDS:2.2 -->
-📌 **Questions de la base — §2.2 (37)** : 363, 365, 366, 367, 368, 369, 372, 373, 374, 375, 380, 381, 382, 383, 385, 386, 391, 393, 396, 397, 401, 402, 403, 405, 406, 447, 452, 463, 464, 806, 808, 2558, 2559, 2572, 2573, 2574, 2594⚠️
+📌 **Questions de la base — §2.2 (38)** : 363, 365, 366, 367, 368, 369, 372, 373, 374, 375, 380, 381, 382, 383, 385, 386, 391, 393, 396, 397, 401, 402, 403, 405, 406, 447, 452, 463, 464, 806, 808, 2558, 2559, 2572, 2573, 2574, 2594⚠️, 2681
 <!-- /IDS -->
 
 ---

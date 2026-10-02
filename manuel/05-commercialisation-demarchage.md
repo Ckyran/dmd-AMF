@@ -72,7 +72,7 @@
 > 🧠 **« On ne se rétracte pas d'un ordre de bourse »** : RTO et exécution n'ont **pas** de délai de rétractation, seulement 48 heures de réflexion.
 
 ### Le démarchage téléphonique (Bloctel)
-Démarcher par téléphone un consommateur inscrit sur la **liste d'opposition** est **interdit**, **sauf** dans le cadre de l'**exécution d'un contrat en cours** et en rapport avec son objet.
+Démarcher par téléphone un consommateur inscrit sur la **liste d'opposition** est **interdit**, **sauf** dans le cadre de l'**exécution d'un contrat en cours** et en rapport avec son objet. Les **jours, horaires et fréquence** des appels sont **fixés par décret** et non librement : depuis 2023, du **lundi au vendredi, 10 h-13 h et 14 h-20 h**, et **4 appels au plus par période de 30 jours**.
 
 > 🆕 **À vérifier** : une loi de 2025 a prévu de passer au **consentement préalable (opt-in)** pour le démarchage téléphonique des consommateurs, à partir d'**août 2026**. La base repose sur le système Bloctel (opposition, *opt-out*).
 
@@ -113,7 +113,7 @@ Démarcher par téléphone un consommateur inscrit sur la **liste d'opposition**
 > 🆕 Depuis **2022**, le marché cible intègre aussi les **préférences de durabilité** (ESG) des clients.
 
 <!-- IDS:5.1 -->
-📌 **Questions de la base — §5.1 (83)** : 580, 581, 582, 583, 584, 585, 586, 587, 588, 590, 591, 593, 595, 596, 597, 598, 599, 600⚠️, 602, 604, 605, 608, 609, 610, 613, 616, 617, 618, 620, 621, 622, 624, 626, 627, 628, 629, 630, 631, 632, 634, 635, 636, 637, 639, 640, 661, 662, 663, 666, 667, 668, 671, 672, 674, 680, 681, 682, 683, 687, 688, 690, 691, 701, 709, 710, 711, 712, 713, 714, 715, 1012, 1016, 1017, 1026, 1039, 2587, 2621, 2644, 2645, 2649, 2689, 2690, 2691
+📌 **Questions de la base — §5.1 (84)** : 580, 581, 582, 583, 584, 585, 586, 587, 588, 590, 591, 593, 595, 596, 597, 598, 599, 600⚠️, 602, 604, 605, 608, 609, 610, 613, 616, 617, 618, 620, 621, 622, 624, 626, 627, 628, 629, 630, 631, 632, 634, 635, 636, 637, 639, 640, 661, 662, 663, 666, 667, 668, 671, 672, 674, 680, 681, 682, 683, 687, 688, 690, 691, 701, 709, 710, 711, 712, 713, 714, 715, 1012, 1016, 1017, 1026, 1039, 2587, 2621, 2622, 2644, 2645, 2649, 2689, 2690, 2691
 <!-- /IDS -->
 
 ---
