@@ -130,7 +130,7 @@ C'est un **réseau** composé de trois **autorités européennes de surveillance
 > ⚠️ Le Comité de Bâle **ne fait pas** de politique monétaire, ne surveille pas les marchés de la zone euro et ne lutte pas contre la criminalité financière. Les standards de lutte anti-blanchiment relèvent du **GAFI**, pas du FSB.
 
 <!-- IDS:1.2.2 -->
-📌 **Questions de la base — §1.2.2 (18)** : 65, 66, 67, 68, 69, 70, 73, 74, 75, 76, 284, 295, 299, 306, 310, 322, 2634, 2671
+📌 **Questions de la base — §1.2.2 (19)** : 65, 66, 67, 68, 69, 70, 73, 74, 75, 76, 284, 295, 299, 306, 310, 322, 2634, 2670⚠️, 2671
 <!-- /IDS -->
 
 ---
