@@ -3,7 +3,25 @@
 Ce manuel couvre **les 12 thèmes de la grille de connaissances de l'AMF**, dans l'ordre. Il est construit à partir de **tes deux bases Excel**, fusionnées et vérifiées.
 - **2 244 questions uniques** : les 2 045 questions de la base V4 (février 2021, y compris les 107 questions de finance durable du §8.7) et 199 questions plus récentes.
 - **Chaque question est rattachée à un sous-thème** et sa notion est expliquée dans la leçon correspondante.
-- La leçon renvoie aux numéros de questions (📌) pour que tu t'entraînes sur ton fichier.
+- La leçon renvoie aux numéros de questions (📌) pour que tu t'entraînes sur ton fichier ou sur le [site de révision](#le-site-de-révision).
+
+---
+
+## Le site de révision
+
+Le dossier `docs/` contient un site complet, sans installation ni connexion à un serveur :
+- **Cours** : les 12 leçons et les 4 annexes, avec un sommaire par leçon et, sous chaque sous-thème, un accès direct à ses questions.
+- **Quiz** : tirage aléatoire dans les **2 244 questions**, par thème ou sous-thème, catégorie A ou C, questions jamais vues, ratées, à risque ou récentes ; correction après chaque question (avec la source, la note du manuel et un lien vers la leçon) ou à la fin.
+- **Examens blancs** : **120 questions tirées au hasard à chaque fois**, sous-thème par sous-thème selon la grille (33 en A, 87 en C), chronomètre de 2 h, correction avec le seuil de 80 % dans chaque catégorie, bilan par thème et révision des erreurs.
+- **Banque** : recherche plein texte et filtres sur toute la base.
+- **Résultats** : progression par sous-thème, courbe des examens blancs, historique, export et import de la progression.
+- Mode jour / nuit, adapté au téléphone.
+
+**Pour l'ouvrir** :
+- en ligne, une fois GitHub Pages activé (*Settings → Pages → Deploy from a branch*, dossier `/docs`) : `https://ckyran.github.io/dmd-AMF/` ;
+- ou en local : télécharge le dépôt et ouvre `docs/index.html` dans ton navigateur.
+
+La progression est enregistrée dans le navigateur utilisé. Pour la garder ou changer d'appareil, utilise **Résultats → Exporter ma progression**.
 
 ---
 
@@ -81,7 +99,7 @@ Ce manuel couvre **les 12 thèmes de la grille de connaissances de l'AMF**, dans
    - la **catégorie A** (thèmes 2, 3, 4, §5.1, thème 6, §9.2), où l'erreur coûte le plus ;
    - les **gros volumes C** : thèmes 7, 8 (dont le §8.7) et 1.
 5. **Les trois derniers jours** : les [chiffres clés](annexes/C-chiffres-cles.md), les [moyens mnémotechniques](annexes/B-mnemotechniques.md), les [questions à risque](annexes/A-questions-a-risque.md) et les **fiches flash ⚡** de chaque thème.
-6. **Examens blancs** : tire 120 questions de ta base en respectant la répartition de la grille (voir le sommaire), et vise **au moins 90 %** pour garder de la marge.
+6. **Examens blancs** : lance-les sur le site (120 questions tirées selon la répartition de la grille) et vise **au moins 90 %** dans chaque catégorie pour garder de la marge.
 
 ## 5. Réflexes de QCM, à utiliser en dernier recours
 
@@ -100,4 +118,19 @@ Lis chaque question **deux fois**. Repère les **négations** (« laquelle est f
 
 ---
 
-*Les questions des bases Excel ne sont pas reproduites dans ce dépôt : seuls leurs numéros y figurent. La base fusionnée (questions, réponses, thème final, notes) t'a été transmise séparément pour ton usage personnel.*
+## Contenu du dépôt
+
+| Dossier | Contenu |
+|---|---|
+| `manuel/` | Les 12 leçons, une par thème |
+| `annexes/` | Questions à risque, moyens mnémotechniques, chiffres clés, mises à jour |
+| `donnees/` | **La base fusionnée** : `Base_AMF_fusionnee.xlsx` (bonnes réponses en jaune, questions à risque en rouge, onglet de répartition), `questions.json` et `questions.csv` (séparateur `;`), avec le thème final, la catégorie d'examen, la bonne réponse, la source, l'alerte du manuel et la leçon de chaque question |
+| `docs/` | **Le site de révision** (voir ci-dessus) |
+| `outils/construire_site.py` | Régénère les données du site et les exports JSON/CSV après une modification des leçons ou de la base |
+
+Pour régénérer le site après une modification :
+
+```bash
+pip install openpyxl markdown-it-py beautifulsoup4
+python3 outils/construire_site.py
+```
