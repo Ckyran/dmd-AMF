@@ -3,25 +3,25 @@
 Ce manuel couvre **les 12 thèmes de la grille de connaissances de l'AMF**, dans l'ordre. Il est construit à partir de **tes deux bases Excel**, fusionnées et vérifiées.
 - **2 244 questions uniques** : les 2 045 questions de la base V4 (février 2021, y compris les 107 questions de finance durable du §8.7) et 199 questions plus récentes.
 - **Chaque question est rattachée à un sous-thème** et sa notion est expliquée dans la leçon correspondante.
-- La leçon renvoie aux numéros de questions (📌) pour que tu t'entraînes sur ton fichier ou sur le [site de révision](#le-site-de-révision).
+- La leçon renvoie aux numéros de questions (📌) pour que tu t'entraînes sur ton fichier ou sur le [site des lots](#le-site-des-lots-de-120-questions-cette-branche).
 
 ---
 
-## Le site de révision
+## Le site des lots de 120 questions (cette branche)
 
-Le dossier `docs/` contient un site complet, sans installation ni connexion à un serveur :
-- **Cours** : les 12 leçons et les 4 annexes, avec un sommaire par leçon et, sous chaque sous-thème, un accès direct à ses questions.
-- **Quiz** : tirage aléatoire dans les **2 244 questions**, par thème ou sous-thème, catégorie A ou C, questions jamais vues, ratées, à risque ou récentes ; correction après chaque question (avec la source, la note du manuel et un lien vers la leçon) ou à la fin.
-- **Examens blancs** : **120 questions tirées au hasard à chaque fois**, sous-thème par sous-thème selon la grille (33 en A, 87 en C), chronomètre de 2 h, correction avec le seuil de 80 % dans chaque catégorie, bilan par thème et révision des erreurs.
-- **Banque** : recherche plein texte et filtres sur toute la base.
-- **Résultats** : progression par sous-thème, courbe des examens blancs, historique, export et import de la progression.
+Le dossier `docs/` de cette branche contient un site qui découpe la base fusionnée en **lots de 120 questions respectant la nomenclature de l'examen** : chaque lot reprend le nombre de questions de chaque sous-thème de la grille (33 en catégorie A, 87 en catégorie C). Chaque question est affichée **directement avec sa bonne réponse**, sans les propositions.
+- **35 lots** couvrent toute la base. Les **lots 1 à 13 n'ont aucune question en commun** : c'est le maximum possible, car le §8.7 compte 199 questions pour 15 places par lot. Les lots 14 à 35 font sortir les questions restantes ; chaque lot indique combien de ses questions sont nouvelles.
+- Les questions sont rangées dans l'ordre des thèmes et des sous-thèmes. Tu peux filtrer un lot par catégorie A ou C.
+- Une **question négative** (« laquelle n'est pas… ») est signalée. Quand la bonne réponse renvoie aux autres propositions (« les deux réponses à la fois », « 1 et 2 »…), les propositions sont affichées pour que la réponse ait un sens.
+- Les notes de l'annexe A (réponse corrigée, dépassée, piège…) s'affichent sous la question concernée.
+- Tu peux **cacher les réponses** pour t'interroger, marquer une question « à revoir », marquer un lot comme révisé, ou générer une nouvelle série aléatoire de lots avec les mêmes règles.
 - Mode jour / nuit, adapté au téléphone.
 
-**Pour l'ouvrir** :
-- en ligne, une fois GitHub Pages activé (*Settings → Pages → Deploy from a branch*, dossier `/docs`) : `https://ckyran.github.io/dmd-AMF/` ;
-- ou en local : télécharge le dépôt et ouvre `docs/index.html` dans ton navigateur.
+**Pour l'ouvrir** : active GitHub Pages sur cette branche (*Settings → Pages → Deploy from a branch*, branche `claude/lots-120-questions`, dossier `/docs`), ou télécharge la branche et ouvre `docs/index.html`.
 
-La progression est enregistrée dans le navigateur utilisé. Pour la garder ou changer d'appareil, utilise **Résultats → Exporter ma progression**.
+Les mêmes lots (série de référence) sont dans `donnees/lots/Lots_120_questions.xlsx` (un onglet par lot) et `donnees/lots/lots_120_questions.csv`.
+
+Le site de cours, quiz et examens blancs se trouve sur la branche `claude/exam-course-feasibility-7rm4hs`.
 
 ---
 
@@ -99,7 +99,7 @@ La progression est enregistrée dans le navigateur utilisé. Pour la garder ou c
    - la **catégorie A** (thèmes 2, 3, 4, §5.1, thème 6, §9.2), où l'erreur coûte le plus ;
    - les **gros volumes C** : thèmes 7, 8 (dont le §8.7) et 1.
 5. **Les trois derniers jours** : les [chiffres clés](annexes/C-chiffres-cles.md), les [moyens mnémotechniques](annexes/B-mnemotechniques.md), les [questions à risque](annexes/A-questions-a-risque.md) et les **fiches flash ⚡** de chaque thème.
-6. **Examens blancs** : lance-les sur le site (120 questions tirées selon la répartition de la grille) et vise **au moins 90 %** dans chaque catégorie pour garder de la marge.
+6. **Lots de 120 questions** : parcours les lots dans l'ordre (1 à 13 d'abord, sans aucune répétition), d'abord réponses visibles, puis réponses cachées pour t'interroger.
 
 ## 5. Réflexes de QCM, à utiliser en dernier recours
 
@@ -124,13 +124,14 @@ Lis chaque question **deux fois**. Repère les **négations** (« laquelle est f
 |---|---|
 | `manuel/` | Les 12 leçons, une par thème |
 | `annexes/` | Questions à risque, moyens mnémotechniques, chiffres clés, mises à jour |
-| `donnees/` | **La base fusionnée** : `Base_AMF_fusionnee.xlsx` (bonnes réponses en jaune, questions à risque en rouge, onglet de répartition), `questions.json` et `questions.csv` (séparateur `;`), avec le thème final, la catégorie d'examen, la bonne réponse, la source, l'alerte du manuel et la leçon de chaque question |
-| `docs/` | **Le site de révision** (voir ci-dessus) |
-| `outils/construire_site.py` | Régénère les données du site et les exports JSON/CSV après une modification des leçons ou de la base |
+| `donnees/` | **La base fusionnée** : `Base_AMF_fusionnee.xlsx` (bonnes réponses en jaune, questions à risque en rouge, onglet de répartition), `questions.json` et `questions.csv` (séparateur `;`) |
+| `donnees/lots/` | **Les 35 lots de 120 questions** de la série de référence : `Lots_120_questions.xlsx` (sommaire + un onglet par lot) et `lots_120_questions.csv` |
+| `docs/` | **Le site des lots** (voir ci-dessus) |
+| `outils/construire_lots.py` | Régénère les lots, les données du site et les exports à partir de `donnees/questions.json` |
 
-Pour régénérer le site après une modification :
+Pour régénérer les lots après une modification de la base :
 
 ```bash
-pip install openpyxl markdown-it-py beautifulsoup4
-python3 outils/construire_site.py
+pip install openpyxl
+python3 outils/construire_lots.py
 ```
