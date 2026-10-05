@@ -51,7 +51,8 @@
   }
   let S = load();
   function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* stockage indisponible */ } }
-  const seriesKey = () => (S.seed == null ? "ref" : String(S.seed));
+  // « v2 » : lots recalculés sans les questions à réponse dépassée, les anciennes coches ne s'y appliquent plus
+  const seriesKey = () => "v2:" + (S.seed == null ? "ref" : String(S.seed));
   const doneList = () => (S.done[seriesKey()] = S.done[seriesKey()] || []);
   const isDone = (n) => doneList().includes(n);
   const isStar = (u) => S.stars.includes(u);
@@ -145,10 +146,11 @@
       [groups[2], "surtout de la révision : ils font sortir les dernières questions jamais vues"],
     ];
     $app.innerHTML = `<div class="page">
-      <div class="page-head"><span class="eyebrow">Base fusionnée · ${nf(QS.length)} questions</span><h1>Lots de 120 questions</h1>
-        <p>Chaque lot respecte la nomenclature de l'examen : 120 questions réparties sous-thème par sous-thème selon la grille, dont 33 en catégorie A et 87 en catégorie C. Chaque question est affichée directement avec sa bonne réponse.</p></div>
+      <div class="page-head"><span class="eyebrow">Base fusionnée · ${nf(QS.length)} questions retenues</span><h1>Lots de 120 questions</h1>
+        <p>Chaque lot respecte la nomenclature de l'examen : 120 questions réparties sous-thème par sous-thème selon la grille, dont 33 en catégorie A et 87 en catégorie C. Chaque question est affichée directement avec sa bonne réponse.</p>
+        ${META.ecartees ? `<p class="small-note">Les ${META.ecartees} questions dont la réponse est dépassée par la réglementation (DICI, ICO et PSAN, CIP, minibons, PERP, TTF…) ne figurent dans aucun lot.</p>` : ""}</div>
       <div class="strip">
-        <div><span class="big">${NB}</span><span class="lbl">lots pour couvrir toute la base</span></div>
+        <div><span class="big">${NB}</span><span class="lbl">lots pour couvrir toutes les questions retenues</span></div>
         <div><span class="big">${groups[0].length}</span><span class="lbl">lots sans aucune répétition</span></div>
         <div><span class="big">33 + 87</span><span class="lbl">questions A + C par lot</span></div>
         <div><span class="big">${done}<small class="muted" style="font-size:14px">/${NB}</small></span><span class="lbl">lots révisés</span></div>

@@ -104,6 +104,7 @@ main { max-width: 980px; margin: 0 auto; padding-inline: 16px; padding-block: 32
 .page-head, .lot-head { display: flex; flex-direction: column; gap: 8px; }
 .page-head h1, .lot-head h1 { font-size: 32px; font-weight: 800; letter-spacing: -.01em; }
 .page-head p, .lot-head p { color: var(--fg-2); max-width: 64ch; }
+.small-note { font-size: 14.5px; color: var(--muted); }
 .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
 .section { display: flex; flex-direction: column; gap: 14px; }
 .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }

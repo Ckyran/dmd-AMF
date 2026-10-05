@@ -6,10 +6,12 @@ Sorties : docs/data/lots-data.js            (données du site)
           donnees/lots/Lots_120_questions.xlsx (un onglet par lot + sommaire)
           donnees/lots/lots_120_questions.csv
 
-Principe : pour chaque sous-thème, les questions sont mélangées une fois (graine fixe), puis
-distribuées en tourniquet, n questions par lot (n = nombre de questions du sous-thème à l'examen).
-Les 13 premiers lots n'ont donc aucune question en commun ; les suivants complètent la base
-jusqu'à ce que chaque question soit sortie au moins une fois (35 lots, limite fixée par le §7.8).
+Principe : les 43 questions dont la réponse est dépassée par la réglementation (alerte « obs »)
+sont écartées. Pour chaque sous-thème, les questions restantes sont mélangées une fois (graine fixe),
+puis distribuées en tourniquet, n questions par lot (n = nombre de questions du sous-thème à l'examen).
+Les 10 premiers lots n'ont donc aucune question en commun (limite fixée par le §5.2, qui perd ses
+questions sur le DICI) ; les suivants complètent la base jusqu'à ce que chaque question soit sortie
+au moins une fois (35 lots, limite fixée par le §7.8).
 
 Dépendance : pip install openpyxl
 Usage      : python3 outils/construire_lots.py   (depuis la racine du dépôt)
@@ -59,6 +61,10 @@ FLAG = {"err": "Erreur de la base", "abs": "Réponse absente de la base", "obs":
 
 # --- Base et intitulés ---------------------------------------------------------
 base = json.load(open("donnees/questions.json", encoding="utf-8"))
+TOTAL = len(base)
+ecartees = [d for d in base if d["alerte"] == "obs"]  # réponses dépassées : hors des lots
+base = [d for d in base if d["alerte"] != "obs"]
+assert TOTAL == 2244 and len(ecartees) == 43
 themes, labels = [], {"3": "Sécurité financière (blanchiment, corruption, embargos)", "4": "Abus de marché"}
 for path in sorted(glob.glob("manuel/*.md")):
     txt = open(path, encoding="utf-8").read()
@@ -89,7 +95,7 @@ for d in base:
         q["f"], q["n"] = d["alerte"], d["note"]
     questions.append(q)
     by_sub.setdefault(q["s"], []).append(q["i"])
-assert len(questions) == 2244 and set(by_sub) == set(GRILLE)
+assert len(questions) == TOTAL - len(ecartees) and set(by_sub) == set(GRILLE)
 
 # --- Lots ------------------------------------------------------------------------
 rng = random.Random(GRAINE)
@@ -106,13 +112,13 @@ for k, lot in enumerate(lots):
     assert len(lot) == len(set(lot)) == 120
     for u in lot:
         first.setdefault(u, k)
-assert len(first) == 2244
+assert len(first) == len(questions)
 fresh = [sum(1 for u in lot if first[u] == k) for k, lot in enumerate(lots)]
 sans_rep = next(k for k, f in enumerate(fresh) if f < 120)
 
 meta = dict(themes=themes, subs=[dict(s=s, t=int(s.split(".")[0]), label=labels[s], n=n,
                                       k="A" if s in CAT_A else "C", bank=len(by_sub[s])) for s, n in GRILLE.items()],
-            seed=GRAINE, nb=NB_LOTS, sansRepetition=sans_rep)
+            seed=GRAINE, nb=NB_LOTS, sansRepetition=sans_rep, total=TOTAL, ecartees=len(ecartees))
 os.makedirs("docs/data", exist_ok=True)
 with open("docs/data/lots-data.js", "w", encoding="utf-8") as f:
     f.write("/* Lots de 120 questions : généré par outils/construire_lots.py, ne pas modifier à la main */\n")
@@ -151,7 +157,9 @@ for k, lot in enumerate(lots):
     ws.append([k + 1, len(lot), a, len(lot) - a, fresh[k], len(lot) - fresh[k]])
 ws.append([])
 ws.append([f"Lots 1 à {sans_rep} : aucune question en commun. Lots suivants : complètent la base "
-           f"jusqu'à ce que les 2 244 questions soient sorties au moins une fois."])
+           f"jusqu'à ce que les {len(questions)} questions retenues soient sorties au moins une fois."])
+ws.append([f"Les {len(ecartees)} questions dont la réponse est dépassée par la réglementation sont écartées "
+           f"des lots (liste dans l'onglet « Écartées »)."])
 for c in ws[1]:
     c.font = bold
 for col, wdt in zip("ABCDEF", (8, 11, 13, 13, 20, 32)):
@@ -169,6 +177,17 @@ for k, lot in enumerate(lots):
     for col, wdt in zip("ABCDEFGHIJ", (8, 7, 10, 10, 11, 70, 50, 14, 20, 50)):
         sh.column_dimensions[col].width = wdt
     sh.freeze_panes = "A2"
+sh = wb.create_sheet("Écartées")
+sh.append(["N° question", "Thème", "Sous-thème", "Question", "Réponse de la base", "Pourquoi elle est dépassée"])
+for c in sh[1]:
+    c.font = bold
+for d in ecartees:
+    sh.append([d["numero"], d["theme"], d["sous_theme"], d["question"], d["choix_" + d["bonne_reponse"].lower()], d["note"]])
+    for c in sh[sh.max_row]:
+        c.alignment = wrap
+for col, wdt in zip("ABCDEF", (11, 8, 10, 70, 45, 70)):
+    sh.column_dimensions[col].width = wdt
+sh.freeze_panes = "A2"
 wb.save("donnees/lots/Lots_120_questions.xlsx")
 
 print(f"{NB_LOTS} lots de 120 questions ; lots 1 à {sans_rep} sans répétition")

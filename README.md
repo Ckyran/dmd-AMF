@@ -10,16 +10,17 @@ Ce manuel couvre **les 12 thèmes de la grille de connaissances de l'AMF**, dans
 ## Le site des lots de 120 questions (cette branche)
 
 Le dossier `docs/` de cette branche contient un site qui découpe la base fusionnée en **lots de 120 questions respectant la nomenclature de l'examen** : chaque lot reprend le nombre de questions de chaque sous-thème de la grille (33 en catégorie A, 87 en catégorie C). Chaque question est affichée **directement avec sa bonne réponse**, sans les propositions.
-- **35 lots** couvrent toute la base. Les **lots 1 à 13 n'ont aucune question en commun** : c'est le maximum possible, car le §8.7 compte 199 questions pour 15 places par lot. Les lots 14 à 35 font sortir les questions restantes ; chaque lot indique combien de ses questions sont nouvelles.
+- **Les 43 questions dont la réponse est dépassée** par la réglementation (DICI, ICO et PSAN, CIP, minibons, PERP, TTF…) **sont écartées** : les lots puisent dans les 2 201 autres questions.
+- **35 lots** couvrent toutes ces questions. Les **lots 1 à 10 n'ont aucune question en commun** : c'est le maximum possible, car le §5.2 ne garde que 20 questions une fois celles sur le DICI écartées, pour 2 places par lot. Dans les lots 11 à 13, seules 2 questions du §5.2 sont déjà sorties. Les lots suivants font sortir les questions restantes ; chaque lot indique combien de ses questions sont nouvelles.
 - Les questions sont rangées dans l'ordre des thèmes et des sous-thèmes. Tu peux filtrer un lot par catégorie A ou C.
 - Une **question négative** (« laquelle n'est pas… ») est signalée. Quand la bonne réponse renvoie aux autres propositions (« les deux réponses à la fois », « 1 et 2 »…), les propositions sont affichées pour que la réponse ait un sens.
-- Les notes de l'annexe A (réponse corrigée, dépassée, piège…) s'affichent sous la question concernée.
+- Les notes de l'annexe A (réponse corrigée, piège, contexte…) s'affichent sous la question concernée.
 - Tu peux **cacher les réponses** pour t'interroger, marquer une question « à revoir », marquer un lot comme révisé, ou générer une nouvelle série aléatoire de lots avec les mêmes règles.
 - Mode jour / nuit, adapté au téléphone.
 
 **Pour l'ouvrir** : active GitHub Pages sur cette branche (*Settings → Pages → Deploy from a branch*, branche `claude/lots-120-questions`, dossier `/docs`), ou télécharge la branche et ouvre `docs/index.html`.
 
-Les mêmes lots (série de référence) sont dans `donnees/lots/Lots_120_questions.xlsx` (un onglet par lot) et `donnees/lots/lots_120_questions.csv`.
+Les mêmes lots (série de référence) sont dans `donnees/lots/Lots_120_questions.xlsx` (un onglet par lot, plus un onglet « Écartées » avec les 43 questions retirées et la raison) et `donnees/lots/lots_120_questions.csv`.
 
 Le site de cours, quiz et examens blancs se trouve sur la branche `claude/exam-course-feasibility-7rm4hs`.
 
@@ -99,7 +100,7 @@ Le site de cours, quiz et examens blancs se trouve sur la branche `claude/exam-c
    - la **catégorie A** (thèmes 2, 3, 4, §5.1, thème 6, §9.2), où l'erreur coûte le plus ;
    - les **gros volumes C** : thèmes 7, 8 (dont le §8.7) et 1.
 5. **Les trois derniers jours** : les [chiffres clés](annexes/C-chiffres-cles.md), les [moyens mnémotechniques](annexes/B-mnemotechniques.md), les [questions à risque](annexes/A-questions-a-risque.md) et les **fiches flash ⚡** de chaque thème.
-6. **Lots de 120 questions** : parcours les lots dans l'ordre (1 à 13 d'abord, sans aucune répétition), d'abord réponses visibles, puis réponses cachées pour t'interroger.
+6. **Lots de 120 questions** : parcours les lots dans l'ordre (1 à 10 d'abord, sans aucune répétition), d'abord réponses visibles, puis réponses cachées pour t'interroger.
 
 ## 5. Réflexes de QCM, à utiliser en dernier recours
 
