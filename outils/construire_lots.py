@@ -52,7 +52,7 @@ NEGATIVE = re.compile(
     r"((lequel|laquelle|lesquels|lesquelles|quel|quelle|quels|quelles|parmi)\b[^?]{0,40}?\b"
     r"(n'est pas|ne sont pas|ne constitue pas|ne constituent pas|n'a pas|n'ont pas|ne fait pas partie"
     r"|ne font pas partie|n'entre pas|ne relève pas|ne figure pas|ne peut pas|ne peuvent pas|ne doit pas"
-    r"|n'existe pas|ne s'applique pas)|\b(est|sont) (fausses?|faux|inexactes?|incorrectes?|erronées?)\b"
+    r"|n'existe pas|ne s'applique pas|ne correspond pas|ne concerne pas|ne permet pas)|\b(est|sont) (fausses?|faux|inexactes?|incorrectes?|erronées?)\b"
     r"|(affirmations?|propositions?) (fausse|inexacte|incorrecte)|\bsauf\s*[:?]?\s*$|sauf une)", re.I)
 FLAG = {"err": "Erreur de la base", "abs": "Réponse absente de la base", "obs": "Réponse dépassée",
         "ver": "À vérifier", "dis": "Formulation discutable", "pie": "Piège", "ctx": "Contexte"}
