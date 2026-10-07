@@ -17,6 +17,7 @@ Le dossier `docs/` de cette branche contient un site qui découpe la base fusion
 - Les notes de l'annexe A (réponse corrigée, piège, contexte…) s'affichent sous la question concernée.
 - Tu peux **cacher les réponses** pour t'interroger, marquer une question « à revoir », marquer un lot comme révisé, ou générer une nouvelle série aléatoire de lots avec les mêmes règles.
 - Mode jour / nuit, adapté au téléphone.
+- **Ta progression** (lots révisés, questions à revoir, série choisie) est enregistrée sur ton compte Claude quand tu ouvres le site comme artefact dans Claude : tu la retrouves à chaque ouverture et sur tous tes appareils. Ouvert depuis GitHub Pages ou en local, le site la garde dans le navigateur.
 
 **Pour l'ouvrir** : active GitHub Pages sur cette branche (*Settings → Pages → Deploy from a branch*, branche `claude/lots-120-questions`, dossier `/docs`), ou télécharge la branche et ouvre `docs/index.html`.
 

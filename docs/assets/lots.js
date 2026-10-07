@@ -37,20 +37,93 @@
   const STAR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m12 3.5 2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/></svg>';
 
   // ---------- Stockage ----------
+  // Deux copies : le navigateur (localStorage) pour un affichage immédiat et, quand la page est ouverte
+  // dans Claude, le compte de la personne (capacité db, document privé data/users/<id>/lots). Le stockage
+  // du navigateur peut être effacé à chaque fermeture de l'artefact (appli mobile, Safari, navigation
+  // privée) ; le document du compte, lui, est conservé et suit la personne d'un appareil à l'autre.
   const KEY = "amf.lots.v1";
-  function load() {
-    let d = null;
-    try { d = JSON.parse(localStorage.getItem(KEY)); } catch (e) { /* stockage indisponible */ }
+  function normalize(d) {
     d = d && typeof d === "object" ? d : {};
     return {
       seed: Number.isInteger(d.seed) ? d.seed : null,
-      done: d.done && typeof d.done === "object" ? d.done : {},
+      done: d.done && typeof d.done === "object" && !Array.isArray(d.done) ? d.done : {},
       stars: Array.isArray(d.stars) ? d.stars.filter((u) => BY_ID.has(u)) : [],
       hide: !!d.hide, filter: d.filter || "all", last: Number.isInteger(d.last) ? d.last : 1,
+      ts: Number.isFinite(d.ts) ? d.ts : 0,
     };
   }
-  let S = load();
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* stockage indisponible */ } }
+  function readLocal() { let d = null; try { d = JSON.parse(localStorage.getItem(KEY)); } catch (e) { /* stockage indisponible */ } return normalize(d); }
+  function writeLocal() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* stockage indisponible */ } }
+  let S = readLocal();
+  const stateJson = () => JSON.stringify({ seed: S.seed, done: S.done, stars: S.stars, hide: S.hide, filter: S.filter, last: S.last });
+  let lastLocal = stateJson();
+  function save() {
+    const j = stateJson();
+    if (j === lastLocal) return;
+    lastLocal = j; S.ts = Date.now();
+    writeLocal();
+    scheduleRemote(false);
+  }
+
+  // Copie sur le compte : une écriture à la fois, seulement quand l'état a changé.
+  const SYNC_TEXT = {
+    wait: "",
+    account: "Ta progression (lots révisés, questions à revoir, série choisie) est enregistrée sur ton compte Claude : tu la retrouves à chaque ouverture, sur tous tes appareils.",
+    local: "Ta progression est enregistrée dans ce navigateur uniquement.",
+  };
+  let remote = null, lastRemote = null, writing = false, again = false, retried = false, timer = null, sync = "wait";
+  function setSync(m) {
+    sync = m;
+    const el = document.getElementById("sync-note");
+    if (el) { el.textContent = SYNC_TEXT[m]; el.hidden = !SYNC_TEXT[m]; }
+  }
+  function scheduleRemote(now) {
+    if (!remote) return;
+    clearTimeout(timer);
+    if (now) flush(); else timer = setTimeout(flush, 500);
+  }
+  async function flush() {
+    if (!remote) return;
+    if (writing) { again = true; return; }
+    const j = stateJson();
+    if (j === lastRemote) return;
+    writing = true;
+    try {
+      await remote.set({ v: 1, ts: S.ts, state: JSON.parse(j) });
+      lastRemote = j; retried = false;
+    } catch (e) {
+      if (e && e.code === "unavailable" && !retried) { retried = true; setTimeout(flush, 1000 + Math.random() * 1500); }
+      else if (!e || e.code !== "resource_exhausted") { remote = null; setSync("local"); }
+    } finally {
+      writing = false;
+      if (again) { again = false; flush(); }
+    }
+  }
+  async function connect() {
+    const c = window.claude;
+    if (!c || typeof c.use !== "function") { setSync("local"); return; }
+    let db = null, user = null, uid = null;
+    try { [db, user] = await Promise.all([c.use("db"), c.use("user")]); uid = user ? await user.id() : null; } catch (e) { /* capacité absente */ }
+    if (!db || !uid) { setSync("local"); return; }
+    let ref, snap;
+    try { ref = db.doc("data/users/" + uid + "/lots"); snap = await ref.get(); } catch (e) { setSync("local"); return; }
+    remote = ref;
+    const body = snap.exists ? snap.data() : null;
+    if (body && body.state && (Number(body.ts) || 0) >= S.ts) {
+      // Le compte a la version la plus récente : elle remplace celle du navigateur.
+      const before = stateJson();
+      S = normalize(JSON.parse(JSON.stringify(body.state)));
+      S.ts = Number(body.ts) || 0;
+      lastRemote = lastLocal = stateJson();
+      writeLocal();
+      if (lastLocal !== before) { computeSeries(); route(true); }
+    } else if (S.ts) {
+      scheduleRemote(true); // première ouverture dans Claude ou navigateur plus récent : on envoie sa progression
+    }
+    setSync("account");
+  }
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") scheduleRemote(true); });
+  window.addEventListener("pagehide", () => scheduleRemote(true));
   // « v2 » : lots recalculés sans les questions à réponse dépassée, les anciennes coches ne s'y appliquent plus
   const seriesKey = () => "v2:" + (S.seed == null ? "ref" : String(S.seed));
   const doneList = () => (S.done[seriesKey()] = S.done[seriesKey()] || []);
@@ -111,7 +184,7 @@
   syncTheme();
 
   // ---------- Routeur ----------
-  function route() {
+  function route(keepScroll) {
     const h = location.hash.replace(/^#/, "") || "lots";
     let m, nav = "lots";
     if ((m = h.match(/^lot-(\d+)$/)) && +m[1] >= 1 && +m[1] <= NB) { viewLot(+m[1]); nav = "lot"; }
@@ -122,9 +195,9 @@
       if (a.dataset.nav === nav) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
     document.querySelector('.nav a[data-nav="lot"] span').textContent = "Lot " + S.last;
-    window.scrollTo(0, 0);
+    if (!keepScroll) window.scrollTo(0, 0);
   }
-  window.addEventListener("hashchange", route);
+  window.addEventListener("hashchange", () => route());
 
   // ---------- Liste des lots ----------
   function card(k) {
@@ -158,6 +231,7 @@
       <div class="series"><p>${S.seed == null ? "<b>Série de référence</b> : la même que dans le fichier Excel du dépôt (donnees/lots)." : `<b>Série aléatoire n° ${S.seed}</b> : un autre découpage de la base, avec les mêmes règles.`}</p>
         <div class="row"><button class="btn small" data-action="new-series">Nouvelle série aléatoire</button>
         ${S.seed == null ? "" : '<button class="btn small ghost" data-action="ref-series">Revenir à la série de référence</button>'}</div></div>
+      <p class="small-note" id="sync-note" ${SYNC_TEXT[sync] ? "" : "hidden"}>${SYNC_TEXT[sync]}</p>
       ${head.map(([g, txt]) => g.length ? `<section class="section"><div class="group-head"><h2>${range(g)}</h2><span>${txt}</span></div>
         <div class="lot-grid">${g.map(card).join("")}</div></section>` : "").join("")}
       <details class="more"><summary>Répartition d'un lot par thème et sous-thème</summary>
@@ -294,4 +368,5 @@
   });
 
   route();
+  connect();
 })();
