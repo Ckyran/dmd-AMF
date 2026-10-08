@@ -42,23 +42,177 @@
   SUBS.forEach((s) => { const w = (TW[s.t] = TW[s.t] || { A: 0, C: 0 }); w[s.k] += s.n; });
 
   // ---------- Stockage ----------
+  // Deux copies de la progression : le navigateur (localStorage) pour un affichage immédiat et, quand la
+  // page est ouverte dans Claude, le compte de la personne (capacité db, documents privés sous
+  // data/users/<id>/) : statistiques et réglages, session en cours, et un document par session terminée.
+  // Le stockage du navigateur peut être effacé à la fermeture de l'artefact ; le compte, lui, suit la
+  // personne dans n'importe quel navigateur où elle ouvre le lien en étant connectée.
   const KEY = "amf.v1";
+  const num = (x) => (Number.isFinite(x) ? x : 0);
   function normalize(d) {
     d = d && typeof d === "object" ? d : {};
     return {
       v: 1,
-      q: d.q && typeof d.q === "object" ? d.q : {},
+      q: d.q && typeof d.q === "object" && !Array.isArray(d.q) ? d.q : {},
       hist: Array.isArray(d.hist) ? d.hist.filter((h) => h && h.id && Array.isArray(h.items)) : [],
       run: d.run && Array.isArray(d.run.items) ? d.run : null,
       prefs: d.prefs && typeof d.prefs === "object" ? d.prefs : {},
+      ts: num(d.ts), runTs: num(d.runTs), resetAt: num(d.resetAt),
     };
   }
   function load() { let d = null; try { d = JSON.parse(localStorage.getItem(KEY)); } catch (e) { /* stockage indisponible */ } return normalize(d); }
+  function writeLocal() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* stockage indisponible */ } }
   let S = load();
+  // Texte canonique (clés triées) : deux contenus identiques donnent le même texte, quel que soit l'ordre des clés.
+  const canon = (v) => JSON.stringify(v, (k, x) => (x && typeof x === "object" && !Array.isArray(x)
+    ? Object.keys(x).sort().reduce((o, key) => { o[key] = x[key]; return o; }, {}) : x));
+  const statsJson = () => canon({ q: S.q, prefs: S.prefs, resetAt: S.resetAt });
+  const runJson = () => canon(S.run);
+  const local = { s: statsJson(), r: runJson() };
   function save() {
     if (S.hist.length > 150) S.hist = S.hist.slice(-150);
-    try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* stockage indisponible */ }
+    const sj = statsJson(), rj = runJson();
+    if (sj !== local.s) { local.s = sj; S.ts = Date.now(); }
+    if (rj !== local.r) { local.r = rj; S.runTs = Date.now(); }
+    writeLocal();
+    scheduleRemote(false);
   }
+
+  // ---------- Copie sur le compte Claude ----------
+  let R = null, sync = "wait", busy = false, again = false, retried = false, syncTimer = null, lastPull = 0;
+  const SYNC = {
+    wait: "Connexion à ton compte…",
+    account: "Ta progression est enregistrée sur ton compte Claude : ouvre ce lien dans n'importe quel navigateur ou appareil où tu es connecté pour la retrouver.",
+    local: "Ta progression est enregistrée dans ce navigateur uniquement. Exporte-la pour la sauvegarder ou la transférer sur un autre appareil.",
+  };
+  function setSync(m) {
+    sync = m;
+    document.querySelectorAll("[data-sync]").forEach((el) => { el.textContent = SYNC[m]; });
+  }
+  const clone = (x) => JSON.parse(JSON.stringify(x));
+  // Une session terminée = un document ; ses réponses sont gardées sous forme de texte compact.
+  function encodeHist(h) {
+    const o = {};
+    Object.keys(h).forEach((k) => { if (k !== "items") o[k] = h[k]; });
+    o.it = h.items.map(([u, a, m]) => u + "." + a + "." + m).join(",");
+    return o;
+  }
+  function decodeHist(d) {
+    const h = {};
+    Object.keys(d).forEach((k) => { if (k !== "it") h[k] = d[k]; });
+    h.items = String(d.it || "").split(",").filter(Boolean).map((x) => { const p = x.split("."); return [p[0], +p[1], +p[2]]; });
+    return h;
+  }
+  function scheduleRemote(now) {
+    if (!R) return;
+    clearTimeout(syncTimer);
+    if (now) flush(); else syncTimer = setTimeout(flush, 700);
+  }
+  async function flush() {
+    if (!R) return;
+    if (busy) { again = true; return; }
+    busy = true;
+    try {
+      const sj = statsJson();
+      if (sj !== R.s) { await R.stats.set(Object.assign({ v: 1, ts: S.ts }, JSON.parse(sj))); R.s = sj; }
+      const rj = runJson();
+      if (rj !== R.r) { await R.run.set({ v: 1, ts: S.runTs, run: JSON.parse(rj) }); R.r = rj; }
+      const ids = new Set(S.hist.map((h) => h.id));
+      for (const h of S.hist.slice()) if (!R.known.has(h.id)) { await R.hist.doc(h.id).set(encodeHist(h)); R.known.add(h.id); }
+      for (const id of [...R.known]) if (!ids.has(id)) { await R.hist.doc(id).delete(); R.known.delete(id); }
+      retried = false;
+    } catch (e) {
+      const code = e && e.code;
+      if ((code === "unavailable" || code === "resource_exhausted") && !retried) { retried = true; setTimeout(flush, 1500 + Math.random() * 1500); }
+      else { R = null; setSync("local"); }
+    } finally {
+      busy = false;
+      if (again) { again = false; flush(); }
+    }
+  }
+  // Relit le compte et fusionne : réponse la plus récente par question, union des sessions terminées,
+  // session en cours et réglages les plus récents ; un « Tout effacer » fait ailleurs s'applique ici aussi.
+  async function pull(refs) {
+    const [ss, rs, hs] = await Promise.all([refs.stats.get(), refs.run.get(), refs.hist.limit(1000).get()]);
+    let changed = false;
+    const rd = ss.exists ? clone(ss.data()) : null;
+    const remoteReset = rd ? num(rd.resetAt) : 0;
+    if (remoteReset > S.resetAt) {
+      S.resetAt = remoteReset;
+      Object.keys(S.q).forEach((u) => { if (num(S.q[u][3]) < remoteReset) delete S.q[u]; });
+      S.hist = S.hist.filter((h) => num(h.end) >= remoteReset);
+      if (S.runTs < remoteReset) S.run = null;
+      changed = true;
+    }
+    if (rd) {
+      Object.entries(rd.q || {}).forEach(([u, v]) => {
+        if (!BY_ID.has(u) || !Array.isArray(v) || num(v[3]) < S.resetAt) return;
+        const cur = S.q[u];
+        if (!cur || num(v[3]) > num(cur[3])) { S.q[u] = v; changed = true; }
+      });
+      if (num(rd.ts) > S.ts && rd.prefs && typeof rd.prefs === "object") { S.prefs = rd.prefs; changed = true; }
+      S.ts = Math.max(S.ts, num(rd.ts));
+    }
+    const rr = rs.exists ? clone(rs.data()) : null;
+    if (rr && num(rr.ts) > S.runTs && num(rr.ts) >= S.resetAt) {
+      S.run = rr.run && Array.isArray(rr.run.items) ? rr.run : null;
+      S.runTs = num(rr.ts);
+      changed = true;
+    }
+    const known = new Set(), have = new Set(S.hist.map((h) => h.id));
+    hs.docs.forEach((d) => {
+      known.add(d.id);
+      const h = decodeHist(clone(d.data()));
+      if (!have.has(h.id) && h.items.length && num(h.end) >= S.resetAt) { S.hist.push(h); have.add(h.id); changed = true; }
+    });
+    if (changed) {
+      S.hist.sort((a, b) => a.date - b.date);
+      if (S.hist.length > 150) S.hist = S.hist.slice(-150);
+      local.s = statsJson(); local.r = runJson();
+      writeLocal();
+    }
+    return {
+      known,
+      s: rd ? canon({ q: rd.q || {}, prefs: rd.prefs || {}, resetAt: num(rd.resetAt) }) : null,
+      r: rr ? canon(rr.run && Array.isArray(rr.run.items) ? rr.run : null) : null,
+      changed,
+    };
+  }
+  function refreshView() {
+    if (location.hash === "#banque" || $modal.innerHTML) return; // ne pas perdre une saisie en cours
+    route(true);
+  }
+  async function connect() {
+    const c = window.claude;
+    if (!c || typeof c.use !== "function") { setSync("local"); return; }
+    let db = null, user = null, uid = null;
+    try { [db, user] = await Promise.all([c.use("db"), c.use("user")]); uid = user ? await user.id() : null; } catch (e) { /* capacité absente */ }
+    if (!db || !uid) { setSync("local"); return; }
+    try {
+      const base = "data/users/" + uid;
+      const refs = { stats: db.doc(base + "/stats"), run: db.doc(base + "/run"), hist: db.doc(base + "/hist").collection("items") };
+      const got = await pull(refs);
+      R = Object.assign(refs, { known: got.known, s: got.s, r: got.r });
+      lastPull = Date.now();
+      setSync("account");
+      if (got.changed) refreshView();
+      scheduleRemote(true); // envoie ce que ce navigateur avait en plus (première ouverture, hors ligne…)
+    } catch (e) { R = null; setSync("local"); }
+  }
+  document.addEventListener("visibilitychange", async () => {
+    if (document.visibilityState === "hidden") { scheduleRemote(true); return; }
+    if (!R || busy || Date.now() - lastPull < 15000) return;
+    lastPull = Date.now();
+    try {
+      const got = await pull(R);
+      R.known = got.known;
+      if (got.s) R.s = got.s;
+      if (got.r) R.r = got.r;
+      if (got.changed) refreshView();
+      scheduleRemote(true);
+    } catch (e) { /* nouvel essai au prochain retour sur la page */ }
+  });
+  window.addEventListener("pagehide", () => scheduleRemote(true));
   const st = (u) => S.q[u];
   const isOk = (u) => !!(S.q[u] && S.q[u][2] === 1);
   const isKo = (u) => !!(S.q[u] && S.q[u][2] === 0);
@@ -166,9 +320,9 @@
       if (a.dataset.nav === top) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
   }
-  function route() {
+  function route(keep) {
     stopTimer();
-    closeModal();
+    if (!keep) closeModal();
     document.body.classList.remove("in-session");
     const h = location.hash.replace(/^#/, "") || "accueil";
     let m;
@@ -189,10 +343,10 @@
       pendingScroll = null;
       if (el) { el.scrollIntoView(); return; }
     }
-    window.scrollTo(0, 0);
+    if (!keep) window.scrollTo(0, 0);
   }
   function go(h) { if (location.hash === "#" + h) route(); else location.hash = h; }
-  window.addEventListener("hashchange", route);
+  window.addEventListener("hashchange", () => route());
 
   // ---------- Accueil ----------
   function runBanner() {
@@ -247,6 +401,7 @@
             <span class="act"><button class="btn small" data-action="quiz-theme" data-t="${t.n}">Quiz</button></span></div>`;
         }).join("")}</div>
         <p class="footer-note">Maîtrise = part des questions du thème dont ta dernière réponse est juste.</p>
+        <p class="footer-note" data-sync>${SYNC[sync]}</p>
       </section>
       ${last.length ? `<section class="section"><h2>Derniers examens blancs</h2>${histTable(last)}</section>` : ""}
     </div>`;
@@ -719,7 +874,7 @@
     if (subSort === "faibles") rows = rows.slice().sort((a, b) => a.p - b.p || b.s.n - a.s.n);
     $app.innerHTML = `<div class="page">
       <div class="page-head"><span class="eyebrow">Suivi</span><h1>Résultats</h1>
-        <p>Ta progression est enregistrée dans ce navigateur. Exporte-la pour la sauvegarder ou la transférer sur un autre appareil.</p></div>
+        <p data-sync>${SYNC[sync]}</p></div>
       <div class="kpis">
         <div class="kpi"><span class="v">${nf(seen)}<small> / ${nf(QS.length)}</small></span><span class="l">questions travaillées</span></div>
         <div class="kpi"><span class="v">${nf(mastered)}</span><span class="l">maîtrisées (dernière réponse juste)</span></div>
@@ -855,8 +1010,10 @@
     },
     import: importBox,
     "do-import": doImport,
-    reset: () => confirmBox("Tout effacer ?", "Ta progression, ton historique et la session en cours seront supprimés de ce navigateur. Pense à exporter avant.", "Tout effacer", () => {
-      S = normalize(null); save(); route();
+    reset: () => confirmBox("Tout effacer ?", `Ta progression, ton historique et la session en cours seront supprimés ${R ? "de ton compte, dans tous tes navigateurs" : "de ce navigateur"}. Pense à exporter avant.`, "Tout effacer", () => {
+      const now = Date.now();
+      S = normalize({ resetAt: now, runTs: now });
+      save(); route();
     }, true),
   };
   document.addEventListener("click", (e) => {
@@ -894,4 +1051,5 @@
   });
 
   route();
+  connect();
 })();

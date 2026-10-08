@@ -21,7 +21,7 @@ Le dossier `docs/` contient un site complet, sans installation ni connexion à u
 - en ligne, une fois GitHub Pages activé (*Settings → Pages → Deploy from a branch*, dossier `/docs`) : `https://ckyran.github.io/dmd-AMF/` ;
 - ou en local : télécharge le dépôt et ouvre `docs/index.html` dans ton navigateur.
 
-La progression est enregistrée dans le navigateur utilisé. Pour la garder ou changer d'appareil, utilise **Résultats → Exporter ma progression**.
+**Ta progression** (statistiques, historique des quiz et examens blancs, session en cours) est enregistrée sur ton compte Claude quand tu ouvres le site comme artefact dans Claude : tu la retrouves dans n'importe quel navigateur ou appareil où tu es connecté, et tu peux reprendre un examen blanc commencé ailleurs. Ouvert depuis GitHub Pages ou en local, le site la garde dans le navigateur ; utilise alors **Résultats → Exporter ma progression** pour la transférer.
 
 ---
 
