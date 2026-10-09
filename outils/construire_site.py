@@ -73,7 +73,7 @@ for r in rows:
         i=uid, t=int(d["Thème"]), s=sub, k="A" if sub in CAT_A else "C",
         q=clean(d["Question"]), c=[clean(d["Choix A"]), clean(d["Choix B"]), clean(d["Choix C"])],
         a="ABC".index(ans), j=clean(d["Justification (base)"]),
-        o=1 if str(d["Origine"]).startswith("Récente") else 0, l=lesson)
+        o=1 if str(d["Origine"]).startswith(("Récente", "BTS")) else 0, l=lesson)
     if base != ans:
         q["b"] = base
     if flag:
@@ -85,7 +85,7 @@ for r in rows:
         reponse_de_la_base=base, justification=q["j"], origine=d["Origine"],
         alerte=flag, note=note, lecon=d["Leçon"]))
 
-assert len(questions) == len({q["i"] for q in questions}) == 2244
+assert len(questions) == len({q["i"] for q in questions}) == len(rows)
 counts = Counter(q["s"] for q in questions)
 missing = [s for s in GRILLE if counts[s] < GRILLE[s]]
 assert not missing and set(counts) == set(GRILLE), (missing, set(counts) ^ set(GRILLE))
@@ -152,7 +152,7 @@ def to_html(text, ids_check=None):
     def ids_block(m):
         sub = m.group(1)
         if ids_check is not None:
-            listed = re.findall(r"(\d+[ab]?)⚠?️?", m.group(2).split(":", 1)[1])
+            listed = re.findall(r"(EF\d+-\d+|\d+[ab]?)⚠?️?", m.group(2).split(":", 1)[1])
             ids_check[sub] = listed
         return f'\n<div class="ids" data-sub="{sub}"></div>\n'
 
@@ -209,7 +209,7 @@ def to_html(text, ids_check=None):
         html = html.replace(e, f'<span class="tag t-{cls}">{lab}</span>')
     for e in STRIP:
         html = html.replace(e, "")
-    html = re.sub(r"(?<![\w/#\"-])Q(\d{1,4}[ab]?)\b",
+    html = re.sub(r"(?<![\w/#\"-])Q((?:EF\d+-)?\d{1,4}[ab]?)\b",
                   r'<a class="qref" href="#" data-q="\1">Q\1</a>', html)
     return title, html, toc
 

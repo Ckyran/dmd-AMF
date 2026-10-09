@@ -518,7 +518,7 @@
     S.prefs.quiz = Object.assign(d, S.prefs.quiz || {});
     return S.prefs.quiz;
   }
-  const POOLS = [["all", "Toutes"], ["new", "Jamais vues"], ["todo", "Non maîtrisées"], ["ko", "Ratées"], ["flag", "À risque (annexe A)"], ["recent", "Récentes (n° ≥ 2553)"]];
+  const POOLS = [["all", "Toutes"], ["new", "Jamais vues"], ["todo", "Non maîtrisées"], ["ko", "Ratées"], ["flag", "À risque (annexe A)"], ["recent", "Récentes (n° ≥ 2553, BTS 2026)"]];
   function poolFilter(kind) {
     return { all: () => true, new: (q) => !st(q.i), todo: (q) => !isOk(q.i), ko: (q) => isKo(q.i), flag: (q) => !!q.f, recent: (q) => q.o === 1 }[kind] || (() => true);
   }
@@ -595,7 +595,7 @@
           <div class="field"><span class="label">Ordre des questions</span>${seg("e-order", p.order, [["theme", "Dans l'ordre des thèmes"], ["mix", "Mélangées"]])}</div>
           <label class="check"><input type="checkbox" data-action="pref-check" data-k="e-shuffle" ${p.shuffle ? "checked" : ""}> Mélanger l'ordre des réponses</label>
           <label class="check"><input type="checkbox" data-action="pref-check" data-k="e-timed" ${p.timed ? "checked" : ""}> Chronomètre de 2 heures (correction automatique à la fin du temps)</label>
-          <label class="check"><input type="checkbox" data-action="pref-check" data-k="e-noObs" ${p.noObs ? "checked" : ""}> Exclure les 43 questions à réponse dépassée par la réglementation</label>
+          <label class="check"><input type="checkbox" data-action="pref-check" data-k="e-noObs" ${p.noObs ? "checked" : ""}> Exclure les ${QS.filter((q) => q.f === "obs").length} questions à réponse dépassée par la réglementation</label>
         </div>
         <aside class="config-side panel">
           <span class="eyebrow">Pour réussir</span>

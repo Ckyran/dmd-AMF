@@ -144,6 +144,7 @@ Démarcher par téléphone un consommateur inscrit sur la **liste d'opposition**
 
 > 🧠 **« PRIIPs = Packagés ; 4 scénarios : Tension, Défavorable, Intermédiaire, Favorable (T-D-I-F) ».**
 > 🆕 **Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs** pour les clients non professionnels. Les questions « DICI » de la base gardent les mêmes réponses (remise avant souscription, échelle de 1 à 7, frais en %), mais le document s'appelle désormais **DIC**.
+> **Confirmé au BTS Banque 2026** : la question sur l'affichage du risque est posée avec le **DIC**, et la réponse reste l'**échelle de 1 à 7** (question 692, mise à jour dans la base).
 
 ### Les frais : ce qu'il faut savoir répondre
 - Les frais sont communiqués **avant** l'opération, **en euros ET en pourcentage**.

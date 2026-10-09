@@ -55,6 +55,7 @@
 ### Nature et droits
 - Une action est un **titre de propriété** (**titre de capital**) : une **part du capital social**. Une obligation, à l'inverse, est un **titre de créance**.
 - L'actionnaire n'est **engagé qu'à hauteur de son apport** : sa responsabilité n'est pas illimitée.
+- En cas de **liquidation**, l'actionnaire est servi **en dernier, après tous les créanciers** (État compris) : il ne récupère que l'éventuel **boni de liquidation** (question EF26-60, BTS Banque 2026).
 - **L'action ordinaire** donne :
   - un **droit de vote** aux assemblées générales, qui **nomment et révoquent les administrateurs** ;
   - un **droit au dividende**, et au boni de liquidation.
@@ -99,7 +100,7 @@
 > 🧠 **« PER = Prix / Earnings (le bénéfice) »** : on paie combien d'années de bénéfices ?
 
 <!-- IDS:7.2 -->
-📌 **Questions de la base — §7.2 (54)** : 1267, 1268, 1269, 1270, 1271, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1282, 1283, 1285, 1286, 1287, 1288, 1289, 1291, 1292, 1295, 1296⚠️, 1297, 1298, 1299, 1300, 1303, 1304, 1305, 1306, 1307, 1310, 1312, 1313, 1316, 1317, 1318, 1319, 1323, 1325, 1326, 1328, 1330, 1331, 1332, 1333, 1685, 1686, 1687, 1700, 1701, 1702, 1722
+📌 **Questions de la base — §7.2 (55)** : 1267, 1268, 1269, 1270, 1271, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1282, 1283, 1285, 1286, 1287, 1288, 1289, 1291, 1292, 1295, 1296⚠️, 1297, 1298, 1299, 1300, 1303, 1304, 1305, 1306, 1307, 1310, 1312, 1313, 1316, 1317, 1318, 1319, 1323, 1325, 1326, 1328, 1330, 1331, 1332, 1333, 1685, 1686, 1687, 1700, 1701, 1702, 1722, EF26-60
 <!-- /IDS -->
 
 ---
@@ -316,7 +317,7 @@ Il compte **deux compartiments** :
 - Avec **1 %** de commission de rachat, on reçoit **99 €** par part.
 
 <!-- IDS:7.8 -->
-📌 **Questions de la base — §7.8 (69)** : 669, 673, 696, 704, 706, 707, 1534, 1536, 1537, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1550, 1552, 1553, 1555, 1556, 1557, 1558, 1559, 1561, 1562, 1564, 1566, 1567, 1568, 1569, 1570, 1571, 1573, 1574, 1576, 1577, 1578, 1579, 1581, 1582, 1583, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1596, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1606, 1694, 1706, 1707, 1721, 2659, 2734, 2739, 2745
+📌 **Questions de la base — §7.8 (68)** : 669, 673, 696, 704, 706, 707, 1534, 1536, 1537, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1550, 1552, 1553, 1555, 1556, 1557, 1558, 1559, 1561, 1562, 1564, 1566, 1567, 1568, 1569, 1570, 1571, 1573, 1574, 1576, 1577, 1578, 1579, 1581, 1582, 1583, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1596, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1606, 1694, 1706, 1707, 1721, 2659, 2734, 2739
 <!-- /IDS -->
 
 ---
@@ -350,9 +351,10 @@ Il compte **deux compartiments** :
 
 ### Les notions de base
 - **Crypto-actif** : un **actif numérique**, stocké et échangé **électroniquement**, reposant sur la **blockchain** (registre décentralisé, sécurisé et transparent). Exemple : le **Bitcoin**, une monnaie virtuelle qui ne s'échange qu'en ligne.
-- Il **n'a pas cours légal** : seul l'**euro** a cours légal en France. Personne n'est obligé de l'accepter, il n'existe ni cours officiel ni parité BCE, et ce **n'est pas un instrument financier**.
+- Il **n'a pas cours légal**, ni en France ni dans l'Union européenne : seul l'**euro** a cours légal en France. Personne n'est obligé de l'accepter, il n'existe ni cours officiel ni parité BCE, et ce **n'est pas un instrument financier**.
 - Les transactions **sous pseudonyme ou anonymes** le rendent attractif pour la fraude.
 - La **faillite d'une plateforme n'est pas couverte par le FGDR**.
+- **Confirmé au BTS Banque 2026** : l'examen dit désormais **« crypto-actifs »** et non plus « crypto-monnaies » (question 1649, mise à jour dans la base). Les réponses ne changent pas.
 - **ICO** (*Initial Coin Offering*, offre au public de jetons) : une **levée de fonds** pour **financer un projet**, par émission de **jetons** qui **représentent des droits** (d'usage d'un service, par exemple) échangés contre des crypto-monnaies. Les **risques** sont ceux des monnaies virtuelles et du projet financé. Il n'y a **pas de cotation sur Euronext** ni de remboursement garanti.
 
 ### Ce que dit la base (régime PACTE de 2019)

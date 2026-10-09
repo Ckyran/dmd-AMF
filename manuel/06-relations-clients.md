@@ -382,7 +382,7 @@ Un compte-titres peut être **individuel, joint ou indivis**.
 - Pour les **personnes âgées vulnérables**, les mesures de vigilance peuvent prévoir un **examen systématique des opérations au-delà d'un âge de référence** fixé en interne. Il n'y a ni interdiction totale, ni juge des tutelles.
 
 <!-- IDS:6.8 -->
-📌 **Questions de la base — §6.8 (28)** : 1069, 1070, 1072, 1074, 1075, 1076, 1078, 1082, 1083, 1085, 1087, 1090, 1091, 1092, 1093, 1095, 1096, 1097, 1100, 1138, 1139, 1156, 1198, 1199, 1200, 2613, 2632a, 2665
+📌 **Questions de la base — §6.8 (27)** : 1069, 1070, 1072, 1074, 1075, 1076, 1078, 1082, 1083, 1085, 1087, 1090, 1091, 1092, 1093, 1095, 1096, 1097, 1100, 1138, 1139, 1156, 1198, 1199, 1200, 2613, 2665
 <!-- /IDS -->
 
 ---
