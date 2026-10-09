@@ -140,7 +140,7 @@ Le professionnel **évalue le risque de chaque client et de chaque opération** 
 ---
 
 <!-- IDS:3 -->
-📌 **Questions de la base — §3 (86)** : 331, 470, 471, 472, 473, 474, 475, 476, 478, 480, 481, 482, 485, 486, 488, 489, 490, 491, 493, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 508, 509, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 539, 727, 730, 753, 791, 1127, 2553, 2554, 2560, 2561, 2563, 2575, 2576, 2577, 2579, 2589, 2590, 2596, 2597, 2598, 2599, 2641, 2642, 2684, 2685, 2686
+📌 **Questions de la base — §3 (87)** : 331, 470, 471, 472, 473, 474, 475, 476, 478, 480, 481, 482, 485, 486, 488, 489, 490, 491, 493, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 508, 509, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 539, 727, 730, 753, 791, 1127, 2553, 2554, 2560, 2561, 2563, 2575, 2576, 2577, 2579, 2589, 2590, 2596, 2597, 2598, 2599, 2641, 2642, 2684, 2685, 2686, EF26-23
 <!-- /IDS -->
 
 ---
@@ -150,6 +150,7 @@ Le professionnel **évalue le risque de chaque client et de chaque opération** 
   - un **règlement unique** (AMLR), d'application directe à partir de **juillet 2027** ;
   - une **6e directive** ;
   - une nouvelle autorité européenne, l'**AMLA**, installée à **Francfort**. Elle supervisera directement certaines entités financières à haut risque à partir de **2028**.
+  - **Confirmé au BTS Banque 2026** : le sujet l'appelle **ALBC** (Autorité de lutte contre le blanchiment de capitaux et le financement du terrorisme). Elle **harmonise les procédures de contrôle interne et de vigilance** au sein de l'UE ; elle ne s'occupe ni des normes prudentielles de Bâle ni des politiques budgétaires (question EF26-23).
   - L'AMLR prévoit un **plafond européen de paiement en espèces de 10 000 €** (la France applique déjà **1 000 €** pour un résident).
 - **Crypto-actifs** : MiCA remplace progressivement le régime PSAN par celui des **PSCA**. La **« travel rule »** (identification de l'émetteur et du bénéficiaire de chaque transfert de crypto-actifs) s'applique depuis le **30 décembre 2024**.
 - **Registre des bénéficiaires effectifs** : depuis un arrêt de la Cour de justice de l'UE (novembre 2022), il n'est plus librement ouvert au public. L'accès est réservé aux personnes justifiant d'un **intérêt légitime**.

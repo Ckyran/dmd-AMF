@@ -6,12 +6,13 @@ Sorties : docs/data/lots-data.js            (données du site)
           donnees/lots/Lots_120_questions.xlsx (un onglet par lot + sommaire)
           donnees/lots/lots_120_questions.csv
 
-Principe : les 43 questions dont la réponse est dépassée par la réglementation (alerte « obs »)
-sont écartées. Pour chaque sous-thème, les questions restantes sont mélangées une fois (graine fixe),
-puis distribuées en tourniquet, n questions par lot (n = nombre de questions du sous-thème à l'examen).
-Les 10 premiers lots n'ont donc aucune question en commun (limite fixée par le §5.2, qui perd ses
-questions sur le DICI) ; les suivants complètent la base jusqu'à ce que chaque question soit sortie
-au moins une fois (35 lots, limite fixée par le §7.8).
+Principe : les questions dont la réponse est dépassée par la réglementation (alerte « obs ») sont
+écartées. Pour chaque sous-thème, les questions restantes sont mélangées une fois (graine fixe propre au
+sous-thème : une mise à jour de la base ne change que les sous-thèmes touchés), puis distribuées en
+tourniquet, n questions par lot (n = nombre de questions du sous-thème à l'examen).
+Les premiers lots n'ont donc aucune question en commun (10 lots : limite fixée par le §5.2, qui perd
+la plupart de ses questions sur le DICI) ; les suivants complètent la base jusqu'à ce que chaque question
+soit sortie au moins une fois (limite fixée par le §7.8).
 
 Dépendance : pip install openpyxl
 Usage      : python3 outils/construire_lots.py   (depuis la racine du dépôt)
@@ -64,7 +65,7 @@ base = json.load(open("donnees/questions.json", encoding="utf-8"))
 TOTAL = len(base)
 ecartees = [d for d in base if d["alerte"] == "obs"]  # réponses dépassées : hors des lots
 base = [d for d in base if d["alerte"] != "obs"]
-assert TOTAL == 2244 and len(ecartees) == 43
+assert TOTAL >= 2244 and 0 < len(ecartees) < 60
 themes, labels = [], {"3": "Sécurité financière (blanchiment, corruption, embargos)", "4": "Abus de marché"}
 for path in sorted(glob.glob("manuel/*.md")):
     txt = open(path, encoding="utf-8").read()
@@ -77,8 +78,11 @@ assert set(labels) == set(GRILLE)
 
 
 def num_key(uid):
+    m = re.match(r"EF(\d+)-(\d+)$", uid)  # questions ajoutées d'après un sujet d'examen (ex. EF26-07)
+    if m:
+        return 1, int(m.group(1)), int(m.group(2)), ""
     m = re.match(r"(\d+)([ab]?)", uid)
-    return int(m.group(1)), m.group(2)
+    return 0, 0, int(m.group(1)), m.group(2)
 
 
 questions, by_sub = [], {}
@@ -98,12 +102,11 @@ for d in base:
 assert len(questions) == TOTAL - len(ecartees) and set(by_sub) == set(GRILLE)
 
 # --- Lots ------------------------------------------------------------------------
-rng = random.Random(GRAINE)
 NB_LOTS = max(math.ceil(len(by_sub[s]) / n) for s, n in GRILLE.items())
 lots = [[] for _ in range(NB_LOTS)]
 for s, n in GRILLE.items():
     ids = sorted(by_sub[s], key=num_key)
-    rng.shuffle(ids)
+    random.Random(f"{GRAINE}-{s}").shuffle(ids)
     for k in range(NB_LOTS):
         lots[k] += [ids[(k * n + j) % len(ids)] for j in range(n)]
 

@@ -1122,6 +1122,23 @@
   "lecon": "manuel/01-cadre-institutionnel.md"
  },
  {
+  "numero": "2632a",
+  "theme": 1,
+  "sous_theme": "1.2.1",
+  "categorie_examen": "C",
+  "question": "Le SGD, Système de Garantie des Dépôts, protège, en règle générale, les dépôts de tous les déposants (personnes physiques ou entreprises) à concurrence de :",
+  "choix_a": "100 000 euros",
+  "choix_b": "50 000 euros",
+  "choix_c": "150 000 euros",
+  "bonne_reponse": "A",
+  "reponse_de_la_base": "A",
+  "justification": "",
+  "origine": "Récente (n° ≥ 2553)",
+  "alerte": "",
+  "note": "",
+  "lecon": "manuel/01-cadre-institutionnel.md"
+ },
+ {
   "numero": "2666",
   "theme": 1,
   "sous_theme": "1.2.1",
@@ -2411,6 +2428,23 @@
   "origine": "Récente (n° ≥ 2553)",
   "alerte": "",
   "note": "",
+  "lecon": "manuel/01-cadre-institutionnel.md"
+ },
+ {
+  "numero": "EF26-07",
+  "theme": 1,
+  "sous_theme": "1.3",
+  "categorie_examen": "C",
+  "question": "Outre le conseil, quelles activités un CIF (conseiller en investissements financiers) peut-il pratiquer, sous réserve de respecter les obligations légales afférentes ?",
+  "choix_a": "Proposer des services de paiement",
+  "choix_b": "Prendre des décisions d'investissement à la place de son client et gérer activement son portefeuille",
+  "choix_c": "Fournir le service de réception et de transmission d'ordres sur OPC (organismes de placement collectif) pour le compte de ses clients",
+  "bonne_reponse": "C",
+  "reponse_de_la_base": "C",
+  "justification": "Art. L541-1 CMF : le CIF peut fournir le service de réception et de transmission d'ordres sur parts ou actions d'OPC pour le compte du client auquel il a fourni un conseil.",
+  "origine": "BTS Banque 2026 (EF2)",
+  "alerte": "pie",
+  "note": "même énoncé que la question 96 de la base, mais la réponse de la base (démarchage financier en vue d'un conseil) n'est pas proposée ici. Bonne réponse : la réception et la transmission d'ordres sur OPC.",
   "lecon": "manuel/01-cadre-institutionnel.md"
  },
  {
@@ -5967,6 +6001,23 @@
   "lecon": "manuel/02-deontologie-conformite.md"
  },
  {
+  "numero": "2615",
+  "theme": 2,
+  "sous_theme": "2.2",
+  "categorie_examen": "A",
+  "question": "Dans la cadre de la gestion de FIA (Fonds d'investissement alternatifs), une société de gestion de portefeuille :",
+  "choix_a": "Doit uniquement identifier les éventuels conflits d'intérêts entre les FIA et ses collaborateurs",
+  "choix_b": "Doit uniquement identifier les conflits d'intérêts entre les FIA et le ou les dépositaires",
+  "choix_c": "Doit identifier tous les conflits d'intérêts existants et potentiels susceptibles d'influencer la gestion des FIA",
+  "bonne_reponse": "C",
+  "reponse_de_la_base": "C",
+  "justification": "",
+  "origine": "Récente (n° ≥ 2553)",
+  "alerte": "",
+  "note": "",
+  "lecon": "manuel/02-deontologie-conformite.md"
+ },
+ {
   "numero": "2681",
   "theme": 2,
   "sous_theme": "2.2",
@@ -8019,6 +8070,23 @@
   "reponse_de_la_base": "A",
   "justification": "",
   "origine": "Récente (n° ≥ 2553)",
+  "alerte": "",
+  "note": "",
+  "lecon": "manuel/03-securite-financiere.md"
+ },
+ {
+  "numero": "EF26-23",
+  "theme": 3,
+  "sous_theme": "3",
+  "categorie_examen": "A",
+  "question": "L'ALBC (l'Autorité de lutte contre le blanchiment de capitaux et le financement du terrorisme) harmonise au sein de l'Union européenne :",
+  "choix_a": "Les normes prudentielles de Bâle",
+  "choix_b": "Les procédures de contrôle interne et de vigilance",
+  "choix_c": "Les politiques budgétaires des États membres",
+  "bonne_reponse": "B",
+  "reponse_de_la_base": "B",
+  "justification": "Règlement (UE) 2024/1620 instituant l'autorité européenne de lutte contre le blanchiment (AMLA, appelée ALBC dans le sujet), installée à Francfort.",
+  "origine": "BTS Banque 2026 (EF2)",
   "alerte": "",
   "note": "",
   "lecon": "manuel/03-securite-financiere.md"
@@ -10128,7 +10196,7 @@
   "justification": "Article L214-23, III CMF",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10145,7 +10213,7 @@
   "justification": "Instruction AMF 2011-20 Article 27",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10179,7 +10247,7 @@
   "justification": "Article 8 et annexe I du Règlement (UE) No 583/2010 du 1er juillet 2010 mettant en oeuvre la directive 2009/65/CE en ce qui concerne les informations clés pour l'investisseur et les conditions à remplir lors de la fourniture des informations clés pour l'investisseur ou du prospectus",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10213,7 +10281,7 @@
   "justification": "Note AMF \"Le Document d'information clé pour l'investisseur (DICI)\"",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10230,7 +10298,7 @@
   "justification": "411-106 Règlement général de l'AMF",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10281,7 +10349,7 @@
   "justification": "Article 411-107 du règlement général de l'AMF",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10349,7 +10417,7 @@
   "justification": "Instruction AMF n° 2011-22 modifié le 23 mai 2014 - Articles 412-1 et suivants du RGAMF",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10366,7 +10434,7 @@
   "justification": "Doc AMF : Guide des documents réglementaires des OPC - DOC 2011-05 modifié 2017",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10502,7 +10570,7 @@
   "justification": "Article 10 alinéa 2. points a) et b) du Règlement (UE) No 583/2010 du 1er juillet 2010 mettant en oeuvre la directive 2009/65/CE en ce qui concerne les informations clés pour l'investisseur et les conditions à remplir lors de la fourniture des informations clés pour l'investisseur ou du prospectus sur un support durable autre que le papier ou au moyen d'un site web",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10519,7 +10587,7 @@
   "justification": "Articles 411-106 et 411-107 du RG AMF",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10527,16 +10595,16 @@
   "theme": 5,
   "sous_theme": "5.2",
   "categorie_examen": "C",
-  "question": "L'affichage du niveau de risque et de rendement d'un produit dans le Document d'information clé pour l'investisseur (DICI) est présenté :",
+  "question": "L'affichage du niveau de risque et de rendement d'un produit dans le document d'informations clés (DIC) est présenté :",
   "choix_a": "Sur une échelle allant de 1 à 5",
   "choix_b": "Sur une échelle allant de 1 à 7",
   "choix_c": "Sur une échelle allant de 1 à 10",
   "bonne_reponse": "B",
   "reponse_de_la_base": "B",
   "justification": "Annexe III de l'Instruction AMF n° 2011-20 relative aux procédures d'agrément, à l'établissement d'un DICI et d'un prospectus et à l'information périodique des OPCVM non coordonnés -",
-  "origine": "V4 (fév. 2021)",
-  "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "origine": "V4 (fév. 2021), formulation BTS Banque 2026 (EF2)",
+  "alerte": "ctx",
+  "note": "formulation mise à jour d'après le sujet du BTS Banque 2026 (épreuve EF2, question 31). L'examen parle désormais du DIC (document d'informations clés PRIIPs), qui a remplacé le DICI ; la réponse reste l'échelle de 1 à 7.",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10570,7 +10638,7 @@
   "justification": "Instruction AMF 2011-20 Guide AMF \"s'informer sur le document d'information clé pour l'investisseur\" 04/2015",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10621,7 +10689,7 @@
   "justification": "Instruction AMF - DOC-2011-20 - Procédures d'agrément, établissement d'un DICI et d'un prospectus et information périodique des fonds d'investissement à vocation générale, fonds de fonds alternatifs et fonds professionnels à vocation générale, art. 24, page 32 (document créé le 21 décembre 2011, modifié le 26 novembre 2019).",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10672,7 +10740,7 @@
   "justification": "https://www.amf-france.org/Epargne-Info-Service/Comprendre-les-produits-financiers/Placements-collectifs/OPC/Les-frais-des-fonds-et-sicav",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10706,7 +10774,7 @@
   "justification": "Site internet de l'AMF, Comprendre les produits financiers Placements collectifs: OPC (Fonds & SICAV) (https://www.amf-france.org/Epargne-Info-Service/Comprendre-les-produits-financiers/Placements-collectifs/OPC/Investir-en-fonds-et-Sicav-comprendre-le-pr",
   "origine": "V4 (fév. 2021)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10723,7 +10791,7 @@
   "justification": "",
   "origine": "Récente (n° ≥ 2553)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10740,7 +10808,7 @@
   "justification": "",
   "origine": "Récente (n° ≥ 2553)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10757,7 +10825,7 @@
   "justification": "",
   "origine": "Récente (n° ≥ 2553)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -10774,7 +10842,7 @@
   "justification": "",
   "origine": "Récente (n° ≥ 2553)",
   "alerte": "obs",
-  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.",
+  "note": "Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).",
   "lecon": "manuel/05-commercialisation-demarchage.md"
  },
  {
@@ -17408,23 +17476,6 @@
   "lecon": "manuel/06-relations-clients.md"
  },
  {
-  "numero": "2632a",
-  "theme": 6,
-  "sous_theme": "6.8",
-  "categorie_examen": "C",
-  "question": "Le SGD, Système de Garantie des Dépôts, protège, en règle générale, les dépôts de tous les déposants (personnes physiques ou entreprises) à concurrence de :",
-  "choix_a": "100 000 euros",
-  "choix_b": "50 000 euros",
-  "choix_c": "150 000 euros",
-  "bonne_reponse": "A",
-  "reponse_de_la_base": "A",
-  "justification": "",
-  "origine": "Récente (n° ≥ 2553)",
-  "alerte": "",
-  "note": "",
-  "lecon": "manuel/06-relations-clients.md"
- },
- {
   "numero": "2665",
   "theme": 6,
   "sous_theme": "6.8",
@@ -19664,6 +19715,23 @@
   "reponse_de_la_base": "B",
   "justification": "Articles 514-1 / 521-7 RG AMF Article 4401 ORDER MATCHING AND EXECUTION IN THE CENTRAL ORDER BOOK - Euronext",
   "origine": "V4 (fév. 2021)",
+  "alerte": "",
+  "note": "",
+  "lecon": "manuel/07-instruments-financiers.md"
+ },
+ {
+  "numero": "EF26-60",
+  "theme": 7,
+  "sous_theme": "7.2",
+  "categorie_examen": "C",
+  "question": "En cas de liquidation de l'entreprise, les actionnaires :",
+  "choix_a": "Sont les premiers à récupérer une part du capital éventuellement restant avant tous les créanciers",
+  "choix_b": "Sont les deuxièmes à récupérer une part du capital éventuellement restant après le recouvrement des impôts",
+  "choix_c": "Sont les derniers à récupérer une part du capital éventuellement restant après tous les créanciers",
+  "bonne_reponse": "C",
+  "reponse_de_la_base": "C",
+  "justification": "L'actionnaire est propriétaire, pas créancier : il ne reçoit le boni de liquidation qu'une fois tous les créanciers payés.",
+  "origine": "BTS Banque 2026 (EF2)",
   "alerte": "",
   "note": "",
   "lecon": "manuel/07-instruments-financiers.md"
@@ -23732,23 +23800,6 @@
   "lecon": "manuel/07-instruments-financiers.md"
  },
  {
-  "numero": "2745",
-  "theme": 7,
-  "sous_theme": "7.8",
-  "categorie_examen": "C",
-  "question": "Les OPC sont constitués :",
-  "choix_a": "D'OPCVM exclusivement",
-  "choix_b": "De FIA exclusivement",
-  "choix_c": "D'OPCVM et de FIA",
-  "bonne_reponse": "C",
-  "reponse_de_la_base": "C",
-  "justification": "",
-  "origine": "Récente (n° ≥ 2553)",
-  "alerte": "",
-  "note": "",
-  "lecon": "manuel/07-instruments-financiers.md"
- },
- {
   "numero": "1608",
   "theme": 7,
   "sous_theme": "7.9",
@@ -24382,14 +24433,14 @@
   "theme": 7,
   "sous_theme": "7.10",
   "categorie_examen": "C",
-  "question": "Les crypto-monnaies comme le Bitcoin, l'Ether… :",
+  "question": "Les crypto-actifs comme le Bitcoin, l'Ether… :",
   "choix_a": "N'ont pas cours légal en France",
-  "choix_b": "Ont cours légal dans l'Union Européenne",
+  "choix_b": "Ont cours légal dans l'Union européenne",
   "choix_c": "Sont échangeables à tout moment contre des euros selon une parité fixée par la BCE",
   "bonne_reponse": "A",
   "reponse_de_la_base": "A",
   "justification": "CMF L111-1 / economie.gouv.fr/particuliers/cryptomonnaies-cryptoactifs",
-  "origine": "V4 (fév. 2021)",
+  "origine": "V4 (fév. 2021), formulation BTS Banque 2026 (EF2)",
   "alerte": "",
   "note": "",
   "lecon": "manuel/07-instruments-financiers.md"
@@ -25908,6 +25959,23 @@
   "lecon": "manuel/08-gestion-collective-finance-durable.md"
  },
  {
+  "numero": "EF26-79",
+  "theme": 8,
+  "sous_theme": "8.2.1",
+  "categorie_examen": "C",
+  "question": "Au regard de la réglementation, qu'est-ce qu'une commission de mouvement ?",
+  "choix_a": "Un montant forfaitaire prélevé annuellement pour la gestion administrative d'un OPCVM",
+  "choix_b": "Les frais d'entrée lors de la souscription d'un OPCVM",
+  "choix_c": "Les frais liés aux opérations d'achat ou de vente portant sur le portefeuille d'un placement collectif ou d'un mandat de gestion",
+  "bonne_reponse": "C",
+  "reponse_de_la_base": "C",
+  "justification": "Frais de transaction prélevés à l'occasion des opérations sur le portefeuille (OPC ou compte géré sous mandat).",
+  "origine": "BTS Banque 2026 (EF2)",
+  "alerte": "",
+  "note": "",
+  "lecon": "manuel/08-gestion-collective-finance-durable.md"
+ },
+ {
   "numero": "1763",
   "theme": 8,
   "sous_theme": "8.2.2",
@@ -26184,14 +26252,14 @@
   "theme": 8,
   "sous_theme": "8.2.2",
   "categorie_examen": "C",
-  "question": "Concernant la gestion benchmarkée, laquelle de ces affirmations est juste ?",
-  "choix_a": "La performance de l'OPC s'analyse par rapport à l'indice de référence indiqué dans son DICI",
-  "choix_b": "La performance de l'OPC ne repose que sur les anticipations de l'investisseur",
-  "choix_c": "Les risques de pertes de l'OPC ne sont liés qu'aux variations de son capital",
+  "question": "Concernant la gestion indicielle, laquelle de ces affirmations est juste ?",
+  "choix_a": "La performance de l'OPC s'analyse par rapport à l'indice de référence indiqué dans son document d'informations clés (DIC)",
+  "choix_b": "La performance de l'OPC repose uniquement sur les anticipations de l'investisseur",
+  "choix_c": "Les risques de pertes de l'OPC sont liés uniquement aux variations de son capital",
   "bonne_reponse": "A",
   "reponse_de_la_base": "A",
   "justification": "RG AMF Livre IV Règlement Benchmark 2016/1011",
-  "origine": "V4 (fév. 2021)",
+  "origine": "V4 (fév. 2021), formulation BTS Banque 2026 (EF2)",
   "alerte": "",
   "note": "",
   "lecon": "manuel/08-gestion-collective-finance-durable.md"
@@ -27008,23 +27076,6 @@
   "reponse_de_la_base": "A",
   "justification": "Article 312-48 RG AMF",
   "origine": "V4 (fév. 2021)",
-  "alerte": "",
-  "note": "",
-  "lecon": "manuel/08-gestion-collective-finance-durable.md"
- },
- {
-  "numero": "2615",
-  "theme": 8,
-  "sous_theme": "8.4",
-  "categorie_examen": "C",
-  "question": "Dans la cadre de la gestion de FIA (Fonds d'investissement alternatifs), une société de gestion de portefeuille :",
-  "choix_a": "Doit uniquement identifier les éventuels conflits d'intérêts entre les FIA et ses collaborateurs",
-  "choix_b": "Doit uniquement identifier les conflits d'intérêts entre les FIA et le ou les dépositaires",
-  "choix_c": "Doit identifier tous les conflits d'intérêts existants et potentiels susceptibles d'influencer la gestion des FIA",
-  "bonne_reponse": "C",
-  "reponse_de_la_base": "C",
-  "justification": "",
-  "origine": "Récente (n° ≥ 2553)",
   "alerte": "",
   "note": "",
   "lecon": "manuel/08-gestion-collective-finance-durable.md"
@@ -28203,6 +28254,23 @@
   "lecon": "manuel/08-gestion-collective-finance-durable.md"
  },
  {
+  "numero": "2745",
+  "theme": 8,
+  "sous_theme": "8.5",
+  "categorie_examen": "C",
+  "question": "Les OPC sont constitués :",
+  "choix_a": "D'OPCVM exclusivement",
+  "choix_b": "De FIA exclusivement",
+  "choix_c": "D'OPCVM et de FIA",
+  "bonne_reponse": "C",
+  "reponse_de_la_base": "C",
+  "justification": "",
+  "origine": "Récente (n° ≥ 2553)",
+  "alerte": "",
+  "note": "",
+  "lecon": "manuel/08-gestion-collective-finance-durable.md"
+ },
+ {
   "numero": "2777",
   "theme": 8,
   "sous_theme": "8.5",
@@ -28989,14 +29057,14 @@
   "theme": 8,
   "sous_theme": "8.7",
   "categorie_examen": "C",
-  "question": "Quand un fonds investit dans des obligations vertes, qu'est-ce que cela signifie ?",
+  "question": "Quand un fonds investit dans des obligations vertes européennes, qu'est-ce que cela signifie ?",
   "choix_a": "Il investit dans des obligations émises par les banques mutualistes",
-  "choix_b": "Il investit dans des obligations qui servent à financer des projets à vocation écologique",
+  "choix_b": "Il investit dans des obligations qui servent à financer des projets compatibles avec les objectifs du règlement Taxonomie (et ses objectifs environnementaux)",
   "choix_c": "Il investit dans des obligations dont les émetteurs garantissent l'utilisation de zéro papier pour leur émission",
   "bonne_reponse": "B",
   "reponse_de_la_base": "B",
   "justification": "economie.gouv.fr : Facil'éco : la finance verte",
-  "origine": "V4 (fév. 2021)",
+  "origine": "V4 (fév. 2021), formulation BTS Banque 2026 (EF2)",
   "alerte": "",
   "note": "",
   "lecon": "manuel/08-gestion-collective-finance-durable.md"
@@ -31887,6 +31955,23 @@
   "reponse_de_la_base": "C",
   "justification": "",
   "origine": "Récente (n° ≥ 2553)",
+  "alerte": "",
+  "note": "",
+  "lecon": "manuel/08-gestion-collective-finance-durable.md"
+ },
+ {
+  "numero": "EF26-100",
+  "theme": 8,
+  "sous_theme": "8.7",
+  "categorie_examen": "C",
+  "question": "Parmi les propositions suivantes, quelle pratique constitue un écoblanchiment (ou greenwashing) ?",
+  "choix_a": "Un fonds d'investissement communique clairement sur le financement d'un projet d'extraction de pétrole",
+  "choix_b": "Une banque communique sur ses actions en faveur de la lutte contre les discriminations au travers de sa fondation",
+  "choix_c": "Une société de gestion centre sa publicité sur de nombreuses photos de panneaux solaires et d'éoliennes, alors que les fonds gérés n'investissent que dans des entreprises d'extraction d'énergie fossile",
+  "bonne_reponse": "C",
+  "reponse_de_la_base": "C",
+  "justification": "Écoblanchiment : communication environnementale trompeuse, qui donne une image plus verte que la réalité des placements.",
+  "origine": "BTS Banque 2026 (EF2)",
   "alerte": "",
   "note": "",
   "lecon": "manuel/08-gestion-collective-finance-durable.md"

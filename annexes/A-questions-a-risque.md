@@ -7,11 +7,11 @@
 |---|---|
 | ❌ Erreur de la base | 1 |
 | ❓ Réponse absente | 1 |
-| 🕰️ Réponse dépassée par la réglementation | 43 |
+| 🕰️ Réponse dépassée par la réglementation | 42 |
 | 🔎 À vérifier | 1 |
 | 🤔 Formulation juridiquement discutable | 1 |
-| ⚠️ Piège | 3 |
-| ℹ️ Contexte à connaître | 14 |
+| ⚠️ Piège | 4 |
+| ℹ️ Contexte à connaître | 15 |
 
 ## ❌ Erreur de la base
 
@@ -26,7 +26,7 @@
 - **Q101** (§1.3 — [thème 1](../manuel/01-cadre-institutionnel.md)) : Statut de CIP supprimé le 10/11/2023 (règlement européen ECSP) : les plateformes d'investissement participatif sont devenues des PSFP agréés par l'AMF. Réponse de la base : cumul CIP + IFP.
 - **Q115** (§1.3 — [thème 1](../manuel/01-cadre-institutionnel.md)) : Mentionne les CIP, statut supprimé depuis le 10/11/2023 (ECSP). Le CIF reste immatriculé à l'ORIAS : la réponse « ORIAS » reste juste.
 - **Q150** (§1.5.1 — [thème 1](../manuel/01-cadre-institutionnel.md)) : Cible d'inflation BCE : « inférieure à, mais proche de 2 % » remplacée en juillet 2021 par une cible de 2 % symétrique à moyen terme. À l'examen, si les choix sont identiques, la réponse attendue reste la seule qui mentionne 2 %.
-- **Q641, Q643, Q647, Q649, Q650, Q656, Q665, Q670, Q686, Q689, Q692, Q694, Q698, Q703, Q1204, Q2646, Q2647, Q2693, Q2694** (§5.2 — [thème 5](../manuel/05-commercialisation-demarchage.md)) : Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC.
+- **Q641, Q643, Q647, Q649, Q650, Q656, Q665, Q670, Q686, Q689, Q694, Q698, Q703, Q1204, Q2646, Q2647, Q2693, Q2694** (§5.2 — [thème 5](../manuel/05-commercialisation-demarchage.md)) : Depuis le 1er janvier 2023, le DICI des OPCVM est remplacé par le DIC PRIIPs pour les investisseurs non professionnels (indicateur de risque SRI de 1 à 7 et 4 scénarios de performance). Les questions sur le DICI restent dans la base : retiens leurs réponses (remise avant souscription, échelle 1 à 7, frais…), qui valent aussi pour le DIC. Confirmé par le sujet du BTS Banque 2026 (épreuve EF2) : l'examen emploie désormais le terme DIC, avec les mêmes réponses (question 692 mise à jour).
 - **Q1188** (§6.4 — [thème 6](../manuel/06-relations-clients.md)) : La publication annuelle des « 5 premiers lieux d'exécution » (RTS 28) a été supprimée par la révision de MIF 2 (2024) ; l'ESMA a demandé dès 2024 de ne plus la contrôler. La base garde l'ancienne règle : c'est la réponse attendue si la question tombe.
 - **Q1498** (§7.6 — [thème 7](../manuel/07-instruments-financiers.md)) : Le PERP n'est plus commercialisé depuis le 1er octobre 2020 : il est remplacé par le PER (loi PACTE). Les cas de sortie anticipée (invalidité, décès du conjoint, surendettement, fin de droits au chômage, cessation d'activité après liquidation judiciaire, et achat de la résidence principale pour l'épargne volontaire du PER) restent proches.
 - **Q1507** (§7.6 — [thème 7](../manuel/07-instruments-financiers.md)) : Le taux du livret jeune est libre mais ne peut pas être inférieur au taux du livret A. Les 0,75 % de la base correspondent à l'ancien taux du livret A ; la question figure d'ailleurs aussi dans la liste des questions supprimées.
@@ -51,6 +51,7 @@
 - **Q23** (§1.1 — [thème 1](../manuel/01-cadre-institutionnel.md)) : L'ACPR est juridiquement une autorité administrative indépendante ET adossée à la Banque de France. La base attend « adossée à la Banque de France ».
 - **Q600** (§5.1 — [thème 5](../manuel/05-commercialisation-demarchage.md)) : La base dit que le démarchage bancaire et financier s'applique « à tous les produits d'épargne (… assurance-vie …) », mais la Q634 exclut les produits d'assurance du champ des démarcheurs bancaires et financiers. Retiens chaque formulation telle quelle.
 - **Q1050** (§6.6 — [thème 6](../manuel/06-relations-clients.md)) : La définition donnée (conserve l'exercice de ses droits, actes annulables s'ils lui nuisent) correspond juridiquement à la sauvegarde de justice ; comme elle n'est pas proposée, la base attend « curatelle ».
+- **QEF26-07** (§1.3 — [thème 1](../manuel/01-cadre-institutionnel.md)) : Même énoncé que la question 96 de la base, mais la réponse de la base (démarchage financier en vue d'un conseil) n'est pas proposée ici. Bonne réponse : la réception et la transmission d'ordres sur OPC.
 
 ## ℹ️ Contexte à connaître
 
@@ -63,3 +64,4 @@
 - **Q2266** (§11.1 — [thème 11](../manuel/11-emissions-operations-titres.md)) : Depuis le régime européen ECSP (2023), les plateformes d'investissement et de prêt aux entreprises sont des PSFP agréés par l'AMF ; le statut d'IFP subsiste pour certains prêts et pour les dons. Réponse attendue de la base : statut d'IFP pour les deux.
 - **Q2464** (§8.7 — [thème 8](../manuel/08-gestion-collective-finance-durable.md)) : Seuils de la DPEF (500 salariés, 20 M€ de bilan ou 40 M€ de CA pour les cotées ; 100 M€ pour les non cotées) : régime remplacé par la CSRD (rapport de durabilité). Retiens les seuils de la base pour cette question.
 - **Q2594** (§2.2 — [thème 2](../manuel/02-deontologie-conformite.md)) : Loi Waserman (2022) : le lanceur d'alerte choisit librement le signalement interne OU externe (autorité). La réponse « directement aux autorités s'il y a urgence » reste la seule juste parmi les choix.
+- **Q692** (§5.2 — [thème 5](../manuel/05-commercialisation-demarchage.md)) : Formulation mise à jour d'après le sujet du BTS Banque 2026 (épreuve EF2, question 31). L'examen parle désormais du DIC (document d'informations clés PRIIPs), qui a remplacé le DICI ; la réponse reste l'échelle de 1 à 7.

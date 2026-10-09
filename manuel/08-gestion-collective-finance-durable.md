@@ -47,6 +47,7 @@
 - **Obligations du gérant** : **loyauté** et **moyens**, **jamais de résultat**. Il agit **dans l'intérêt exclusif** de ses mandants.
 - Le mandat peut être **résilié à tout moment par le mandant ou par le mandataire**.
 - Le gérant **informe le client si la valeur totale du portefeuille baisse de 10 %** depuis le dernier relevé (puis à chaque multiple de 10 %).
+- **Commission de mouvement** : ce sont les **frais liés aux opérations d'achat ou de vente** sur le portefeuille d'un OPC ou d'un mandat de gestion (frais de transaction). Ce ne sont ni des frais d'entrée, ni un forfait annuel de gestion (question EF26-79, BTS Banque 2026). Elle peut être partagée entre la SGP et le dépositaire (§6.5).
 
 ### La gestion collective (OPC)
 - Une **souscription d'OPC vaut adhésion au contrat de gestion** : il n'y a pas de mandat à signer.
@@ -64,7 +65,7 @@
 > 🧠 **« Mandat = MON portefeuille, mes règles ; OPC = NOTRE portefeuille, ses règles (ratios permanents). »**
 
 <!-- IDS:8.2.1 -->
-📌 **Questions de la base — §8.2.1 (26)** : 907, 1745, 1746, 1747, 1749, 1750, 1751, 1752, 1753, 1754, 1755, 1756, 1757, 1759, 1760, 1761, 1762, 1796, 1940, 1958, 1959, 1960, 1961, 1999, 2029, 2722
+📌 **Questions de la base — §8.2.1 (27)** : 907, 1745, 1746, 1747, 1749, 1750, 1751, 1752, 1753, 1754, 1755, 1756, 1757, 1759, 1760, 1761, 1762, 1796, 1940, 1958, 1959, 1960, 1961, 1999, 2029, 2722, EF26-79
 <!-- /IDS -->
 
 ---
@@ -83,7 +84,7 @@
 | **Actif sans risque** | Revenus **certains**, **écart-type nul** |
 | **Horizon de placement** | La **durée de détention envisagée**. **Moyen terme = 3 à 8 ans**. **Plus le risque est élevé, plus l'horizon recommandé est long.** |
 | **Attribution de performance** | Expliquer la performance par les marchés, le **solde étant attribué au talent du gérant** |
-| **Indice de référence (benchmark)** | L'objectif à atteindre et l'étalon de comparaison. Une **gestion benchmarkée** s'analyse **par rapport à l'indice indiqué dans son DIC**. |
+| **Indice de référence (benchmark)** | L'objectif à atteindre et l'étalon de comparaison. Une **gestion benchmarkée** (dite **indicielle** dans le sujet du BTS Banque 2026, question 1964) s'analyse **par rapport à l'indice indiqué dans son DIC**. |
 
 **Exemple** : un rendement de 7 %, un taux sans risque de 2 % et une volatilité de 10 % donnent un **Sharpe de (7 − 2) / 10 = 0,5**.
 
@@ -130,7 +131,7 @@
 > 🆕 **ELTIF 2.0** (janvier 2024) : accès des particuliers facilité.
 
 <!-- IDS:8.4 -->
-📌 **Questions de la base — §8.4 (37)** : 874, 1779, 1781, 1784, 1786, 1787, 1788, 1789, 1791, 1794, 1795, 1797, 1798, 1799⚠️, 1802, 1803, 1804, 1805, 1806, 1807, 1809, 1810, 1811⚠️, 1812, 1813, 1944, 1969, 1970, 1971, 1972, 1973, 2013, 2018, 2019, 2035, 2615, 2743
+📌 **Questions de la base — §8.4 (36)** : 874, 1779, 1781, 1784, 1786, 1787, 1788, 1789, 1791, 1794, 1795, 1797, 1798, 1799⚠️, 1802, 1803, 1804, 1805, 1806, 1807, 1809, 1810, 1811⚠️, 1812, 1813, 1944, 1969, 1970, 1971, 1972, 1973, 2013, 2018, 2019, 2035, 2743
 <!-- /IDS -->
 
 ---
@@ -175,7 +176,7 @@
 > 🧠 **« FCPR 50, FCPI 70, FIP 70, OPCI 60, nourricier 85. »**
 
 <!-- IDS:8.5 -->
-📌 **Questions de la base — §8.5 (69)** : 1815, 1816, 1817, 1819, 1821, 1823, 1825, 1826, 1827, 1829, 1830, 1831, 1832, 1833, 1834, 1835, 1836, 1838, 1839, 1841, 1842, 1844, 1846, 1847, 1848, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1870, 1948, 1949, 1950, 1977, 1978, 1979⚠️, 1980, 1981, 1982, 1983, 1986, 1987, 2002, 2003, 2004, 2015, 2020, 2026, 2028, 2036, 2037, 2038, 2603, 2607, 2740, 2777
+📌 **Questions de la base — §8.5 (70)** : 1815, 1816, 1817, 1819, 1821, 1823, 1825, 1826, 1827, 1829, 1830, 1831, 1832, 1833, 1834, 1835, 1836, 1838, 1839, 1841, 1842, 1844, 1846, 1847, 1848, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1870, 1948, 1949, 1950, 1977, 1978, 1979⚠️, 1980, 1981, 1982, 1983, 1986, 1987, 2002, 2003, 2004, 2015, 2020, 2026, 2028, 2036, 2037, 2038, 2603, 2607, 2740, 2745, 2777
 <!-- /IDS -->
 
 ---
@@ -213,7 +214,7 @@
   - Il est vendu par les **réseaux bancaires et financiers**, avec un **DIC** comme tout fonds grand public. Il se développe **dans le monde entier**, pas seulement en France.
 - **Finance verte** : les opérations financières qui **favorisent la transition énergétique et la lutte contre le réchauffement climatique**.
 - **Finance solidaire** : elle finance des **activités d'utilité sociale** (lutte contre l'exclusion, cohésion sociale, développement durable), par exemple des **ateliers protégés employant des personnes handicapées**. **Elle est distincte de l'ISR** : ni l'une n'inclut l'autre.
-- **Greenwashing** : une **publicité mensongère** fondée sur de faux arguments écologiques.
+- **Greenwashing** (écoblanchiment) : une **publicité mensongère** fondée sur de faux arguments écologiques. Exemple type du BTS Banque 2026 (question EF26-100) : une société de gestion illustre sa publicité de **panneaux solaires et d'éoliennes** alors que ses fonds n'investissent que dans l'**extraction d'énergies fossiles**. Communiquer clairement sur un projet pétrolier n'est pas du greenwashing.
 - Les **œuvres d'art** ne relèvent pas de la finance durable.
 
 ### Classer un critère dans le bon pilier
@@ -269,6 +270,7 @@
 - Leur risque et leur rendement ne dépendent **pas** de la performance écologique des projets.
 
 > 🆕 **Norme européenne d'obligation verte (EuGB)**, applicable depuis le **21 décembre 2024** : label volontaire qui exige que l'**essentiel des fonds (85 %)** soit aligné sur la **taxonomie** et passe par un **examinateur externe** enregistré auprès de l'ESMA.
+> **Confirmé au BTS Banque 2026** : un fonds investi en **obligations vertes européennes** finance des projets **compatibles avec les objectifs du règlement Taxonomie** (question 1922, mise à jour dans la base).
 
 ### La notation extra-financière
 - Elle évalue la **politique environnementale, sociale et de gouvernance** d'un acteur. Elle n'évalue ni la solvabilité, ni la rentabilité, ni le cours. Elle peut intégrer la **qualité des codes de conduite**, la **gestion des ressources humaines** ou la **contribution à la santé publique**, et elle concerne **tous types d'entreprises**.
@@ -322,7 +324,7 @@
 > 🆕 Une **révision de SFDR** (création de catégories de produits) est en discussion depuis la proposition de la Commission fin 2025.
 
 <!-- IDS:8.7 -->
-📌 **Questions de la base — §8.7 (199)** : 1885, 1886, 1887, 1888, 1889, 1892, 1893, 1894, 1895, 1896, 1898, 1899, 1901, 1902, 1903, 1904, 1905, 1906, 1908, 1909, 1910, 1911, 1914, 1915, 1917, 1918, 1920, 1921, 1922, 1923, 1924⚠️, 1926, 1927, 1928, 1929, 1930, 1932, 1933, 1934, 1935, 1936, 1937⚠️, 1951, 1953, 1990, 1991, 1992, 1993, 1995⚠️, 1997, 1998, 2006, 2007, 2008, 2010, 2011, 2012, 2016, 2021, 2022, 2023, 2024, 2032, 2446, 2447, 2448, 2449, 2450, 2451, 2452, 2453, 2454, 2455, 2456, 2457, 2458, 2459, 2460, 2461, 2462, 2463, 2464⚠️, 2465, 2466, 2467, 2468, 2469, 2470, 2471, 2472, 2473, 2474, 2475, 2476, 2477, 2478, 2479, 2480, 2481⚠️, 2482, 2483, 2484, 2485, 2486, 2487, 2488, 2489, 2490, 2491, 2492, 2493, 2494, 2495, 2496, 2497, 2498, 2499, 2500, 2501, 2502, 2503, 2504, 2505, 2506, 2507, 2508, 2509, 2510, 2511, 2512, 2513, 2514, 2515, 2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2528, 2529, 2530, 2531, 2532, 2533, 2534, 2535, 2536, 2537, 2538⚠️, 2539, 2540, 2541, 2542, 2543, 2544, 2545, 2546, 2547, 2548, 2549, 2550, 2551, 2552, 2557, 2567, 2569, 2582, 2583, 2584, 2585, 2586, 2592, 2593, 2605, 2606, 2609, 2610, 2611, 2617, 2618, 2626, 2748, 2749, 2750, 2785, 2789, 2790, 2791, 2793, 2794, 2795, 2796
+📌 **Questions de la base — §8.7 (200)** : 1885, 1886, 1887, 1888, 1889, 1892, 1893, 1894, 1895, 1896, 1898, 1899, 1901, 1902, 1903, 1904, 1905, 1906, 1908, 1909, 1910, 1911, 1914, 1915, 1917, 1918, 1920, 1921, 1922, 1923, 1924⚠️, 1926, 1927, 1928, 1929, 1930, 1932, 1933, 1934, 1935, 1936, 1937⚠️, 1951, 1953, 1990, 1991, 1992, 1993, 1995⚠️, 1997, 1998, 2006, 2007, 2008, 2010, 2011, 2012, 2016, 2021, 2022, 2023, 2024, 2032, 2446, 2447, 2448, 2449, 2450, 2451, 2452, 2453, 2454, 2455, 2456, 2457, 2458, 2459, 2460, 2461, 2462, 2463, 2464⚠️, 2465, 2466, 2467, 2468, 2469, 2470, 2471, 2472, 2473, 2474, 2475, 2476, 2477, 2478, 2479, 2480, 2481⚠️, 2482, 2483, 2484, 2485, 2486, 2487, 2488, 2489, 2490, 2491, 2492, 2493, 2494, 2495, 2496, 2497, 2498, 2499, 2500, 2501, 2502, 2503, 2504, 2505, 2506, 2507, 2508, 2509, 2510, 2511, 2512, 2513, 2514, 2515, 2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2528, 2529, 2530, 2531, 2532, 2533, 2534, 2535, 2536, 2537, 2538⚠️, 2539, 2540, 2541, 2542, 2543, 2544, 2545, 2546, 2547, 2548, 2549, 2550, 2551, 2552, 2557, 2567, 2569, 2582, 2583, 2584, 2585, 2586, 2592, 2593, 2605, 2606, 2609, 2610, 2611, 2617, 2618, 2626, 2748, 2749, 2750, 2785, 2789, 2790, 2791, 2793, 2794, 2795, 2796, EF26-100
 <!-- /IDS -->
 
 ---

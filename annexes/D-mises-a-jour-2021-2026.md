@@ -3,6 +3,17 @@
 > Ta base Excel date de la **V4 de février 2021**, complétée par des questions plus récentes (environ 2021-2022). Depuis, de nombreux textes ont évolué. Cette page rassemble toutes les mises à jour signalées 🆕 dans les leçons.
 > ⚠️ Mes connaissances s'arrêtent mi-2026 et je n'ai pas pu consulter le site de l'AMF. Les points marqués « à vérifier » sont à confirmer avec la grille et les documents officiels en vigueur à la date de ton examen.
 
+## Confirmé par un vrai sujet : BTS Banque 2026, épreuve EF2 « Certification professionnelle »
+
+Ce sujet de 120 questions suit **exactement la grille AMF**, thème par thème et sous-thème par sous-thème (33 questions A, 87 C). **116 de ses questions viennent de ta base**. Il confirme ces mises à jour :
+- **DIC au lieu de DICI** : la question sur l'affichage du risque est posée avec le DIC, réponse inchangée (**échelle de 1 à 7**). La question 692 a été mise à jour, et les autres questions DICI gardent leurs réponses ([thème 5](../manuel/05-commercialisation-demarchage.md)).
+- **« Crypto-actifs »** remplace « crypto-monnaies » : toujours **pas de cours légal**, ni en France ni dans l'UE (question 1649, [thème 7](../manuel/07-instruments-financiers.md)).
+- **Obligations vertes européennes** : elles financent des projets **compatibles avec le règlement Taxonomie** (question 1922, [thème 8](../manuel/08-gestion-collective-finance-durable.md)).
+- **Gestion « indicielle »** : la performance s'analyse par rapport à l'indice indiqué dans le **DIC** (question 1964).
+- **Nouvelle autorité européenne anti-blanchiment** (AMLA, appelée **ALBC** dans le sujet) : elle **harmonise les procédures de contrôle interne et de vigilance** (question EF26-23, [thème 3](../manuel/03-securite-financiere.md)).
+- **Questions nouvelles ajoutées à la base** : EF26-07 (CIF et RTO sur OPC), EF26-23 (ALBC), EF26-60 (actionnaires servis en dernier en cas de liquidation), EF26-79 (commission de mouvement), EF26-100 (exemple d'écoblanchiment).
+- **Classements corrigés d'après la place des questions dans le sujet** : la question 2615 (conflits d'intérêts d'une SGP de FIA) passe au §2.2, la 2745 (« Les OPC sont constitués ») au §8.5, et la 2632a (plafond de garantie des dépôts) au §1.2.1.
+
 ## Thème 1 — [Cadre institutionnel et réglementaire (France, Europe, international)](../manuel/01-cadre-institutionnel.md)
 
 - 🆕 Exemple concret de mesure du HCSF : depuis 2022, les normes de crédit immobilier sont contraignantes (taux d'effort maximal de 35 %, durée maximale de 25 ans).

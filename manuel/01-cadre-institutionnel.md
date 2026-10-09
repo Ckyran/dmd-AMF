@@ -110,7 +110,7 @@ C'est un **réseau** composé de trois **autorités européennes de surveillance
 > 🆕 L'UE s'est dotée en 2024 d'une **quatrième autorité**, l'**AMLA** (lutte contre le blanchiment, à Francfort), traitée au thème 3.
 
 <!-- IDS:1.2.1 -->
-📌 **Questions de la base — §1.2.1 (32)** : 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 266, 281, 287, 298, 305, 309, 325, 2666
+📌 **Questions de la base — §1.2.1 (33)** : 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 266, 281, 287, 298, 305, 309, 325, 2632a, 2666
 <!-- /IDS -->
 
 ---
@@ -163,6 +163,9 @@ L'**ORIAS** est l'**Organisme pour le registre unique des intermédiaires en ass
   - conseil en investissement, conseil sur la fourniture de services d'investissement, **conseil sur les biens divers** (activité normale, pas seulement accessoire) ;
   - **réception-transmission d'ordres (RTO) sur des parts ou actions d'OPC**, mais **pas** de gestion sous mandat ni de gestion d'OPC ;
   - **démarchage** en vue de proposer son conseil.
+
+> ⚠️ **Confirmé au BTS Banque 2026** : à la question « Outre le conseil, quelles activités un CIF peut-il pratiquer ? », la bonne réponse peut être la **RTO sur OPC** (question EF26-07) et non le démarchage (question 96 de la base). Lis les trois propositions avant de répondre par réflexe.
+
 - **Conditions** :
   - conditions d'**âge et d'honorabilité** ;
   - **compétence professionnelle adaptée** (formation ou diplôme) ;
@@ -190,7 +193,7 @@ L'**ORIAS** est l'**Organisme pour le registre unique des intermédiaires en ass
 > 🆕 **Financement participatif** : depuis le **10 novembre 2023**, le règlement européen **ECSP** a supprimé le statut de **CIP** (conseiller en investissements participatifs). Les plateformes sont devenues des **PSFP** (prestataires de services de financement participatif), **agréés par l'AMF** et dotés d'un passeport européen. Les questions 101 et 115 de la base reposent encore sur le statut de CIP (voir l'annexe A).
 
 <!-- IDS:1.3 -->
-📌 **Questions de la base — §1.3 (56)** : 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 100, 101⚠️, 102, 103, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115⚠️, 118, 119, 121, 122, 123, 124, 125, 126, 127, 267, 268, 269, 278, 292, 313, 314, 323, 2629, 2632b, 2633, 2636, 2672, 2673
+📌 **Questions de la base — §1.3 (57)** : 77, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 98, 100, 101⚠️, 102, 103, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115⚠️, 118, 119, 121, 122, 123, 124, 125, 126, 127, 267, 268, 269, 278, 292, 313, 314, 323, 2629, 2632b, 2633, 2636, 2672, 2673, EF26-07⚠️
 <!-- /IDS -->
 
 ---

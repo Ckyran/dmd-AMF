@@ -124,8 +124,9 @@
   }
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") scheduleRemote(true); });
   window.addEventListener("pagehide", () => scheduleRemote(true));
-  // « v2 » : lots recalculés sans les questions à réponse dépassée, les anciennes coches ne s'y appliquent plus
-  const seriesKey = () => "v2:" + (S.seed == null ? "ref" : String(S.seed));
+  // Préfixe de version : il change quand le contenu des lots change, pour que d'anciennes coches ne s'appliquent
+  // pas à des lots différents (v2 : sans réponses dépassées ; v3 : base mise à jour d'après le BTS Banque 2026).
+  const seriesKey = () => "v3:" + (S.seed == null ? "ref" : String(S.seed));
   const doneList = () => (S.done[seriesKey()] = S.done[seriesKey()] || []);
   const isDone = (n) => doneList().includes(n);
   const isStar = (u) => S.stars.includes(u);
