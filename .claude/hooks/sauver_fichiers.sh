@@ -21,7 +21,7 @@ while IFS= read -r -d '' f; do
   taille=$(du -h "$DEST/$cible" | cut -f1)
   echo "| $(date +%F) | [$cible]($cible) | $taille |" >> "$DEST/INDEX.md"
   nouveaux+=("fichiers-recus/$cible")
-done < <(find "$UPLOADS" -type f -print0 2>/dev/null)
+done < <(find "$UPLOADS" -type f ! -name ".*" -print0 2>/dev/null)
 if [ ${#nouveaux[@]} -gt 0 ]; then
   echo "Fichiers envoyés sauvegardés dans le dépôt : ${nouveaux[*]}. Les committer et pousser sur la branche courante (voir CLAUDE.md)."
 fi
