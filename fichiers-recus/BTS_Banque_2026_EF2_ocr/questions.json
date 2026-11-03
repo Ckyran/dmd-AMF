@@ -1,0 +1,1082 @@
+[
+ {
+  "n": 1,
+  "q": "La supervision du secteur bancaire et assurantiel en France est assurée par :",
+  "c": [
+   "L'ACPR (Autorité de contrôle prudentiel et de résolution)",
+   "Le Comité Consultatif du secteur financier (CCSF)",
+   "Le CECEI (Comité des établissements de crédit et des entreprises d'investissement)"
+  ]
+ },
+ {
+  "n": 2,
+  "q": "Qui est chargé de contrôler le respect par les sociétés de gestion de portefeuille des dispositions réglementaires qui leurs sont applicables :",
+  "c": [
+   "Le CCLRF (Comité consultatif de la législation et de la réglementation financières)",
+   "La Banque de France",
+   "L'Autorité des marchés financiers (AMF)"
+  ]
+ },
+ {
+  "n": 3,
+  "q": "Un établissement de crédit français désirant exercer librement sa prestation de service d'investissement dans l'Union européenne doit obtenir :",
+  "c": [
+   "Un agrément de la commission européenne",
+   "Un passeport européen auprès de l'ACPR",
+   "Une autorisation de la Cour européenne de justice"
+  ]
+ },
+ {
+  "n": 4,
+  "q": "Le plafond harmonisé de garantie prévu par le système européen de garantie des dépôts (SGD) s'élève à :",
+  "c": [
+   "50 000 euros",
+   "100 000 euros",
+   "150 000 euros"
+  ]
+ },
+ {
+  "n": 5,
+  "q": "Parmi les organisations suivantes, laquelle est exclue de l'architecture internationale de la régulation financière ?",
+  "c": [
+   "L'Eurosystème",
+   "Le ministère du Travail",
+   "Le dépositaire central Euroclear"
+  ]
+ },
+ {
+  "n": 6,
+  "q": "Les conseillers en investissements financiers sont les personnes exerçant à titre de profession habituelle les activités :",
+  "c": [
+   "De conseil en investissement uniquement",
+   "De conseil en investissement et de gestion de portefeuille uniquement",
+   "De conseil en investissement et de réception/transmission d'ordres sur OPC (organismes de placement collectif) pour le compte d'un client auquel ils ont fourni une prestation de conseil"
+  ]
+ },
+ {
+  "n": 7,
+  "q": "Outre le conseil, quelles activités un CIF (conseiller en investissements financiers) peut-il pratiquer, sous réserve de respecter les obligations légales afférentes ?",
+  "c": [
+   "Proposer des services de paiement",
+   "Prendre des décisions d'investissement à la place de son client et gérer activement son portefeuille",
+   "Fournir le service de réception et de transmission d'ordres sur OPC (organismes de placement collectif) pour le compte de ses clients"
+  ]
+ },
+ {
+  "n": 8,
+  "q": "Avant de formuler un conseil, le CIF (conseiller en investissements financiers) et son client doivent signer une lettre de mission qui précise :",
+  "c": [
+   "L'obligation de résultat du CIF",
+   "Les modalités de rémunération du CIF",
+   "Les diplômes et l'expérience professionnelle du CIF"
+  ]
+ },
+ {
+  "n": 9,
+  "q": "La Banque centrale européenne (BCE) a comme objectif principal de :",
+  "c": [
+   "Réduire le chômage dans les pays membres de l'Union européenne",
+   "Exécuter les décisions des États membres de la zone euro dans le domaine de la politique monétaire",
+   "Maintenir la stabilité des prix dans les pays membres de la zone euro"
+  ]
+ },
+ {
+  "n": 10,
+  "q": "Quel est le rôle principal des marchés de capitaux dans l'économie ?",
+  "c": [
+   "De mettre en relation directe des acheteurs et des vendeurs de capitaux",
+   "De réguler les économies nationales et fixer les prix",
+   "De soutenir la politique monétaire des États et soutenir le niveau de change"
+  ]
+ },
+ {
+  "n": 11,
+  "q": "Qu'est-ce que le risque de crédit ?",
+  "c": [
+   "Le risque résultant d'une inadaptation ou d'une défaillance des procédures",
+   "Le risque de ne pas pouvoir dénouer une position en cas d'achat ou de vente de titres",
+   "Le risque qu'un emprunteur ne rembourse pas tout ou partie de son crédit aux échéances prévues"
+  ]
+ },
+ {
+  "n": 12,
+  "q": "Qu'appelle-t-on réserve de change ?",
+  "c": [
+   "Les réserves d'or destinées pour tout ou partie à la conversion en devises étrangères",
+   "Les réserves en monnaie fiduciaire destinées à la conversion en devises étrangères",
+   "Les réserves en devises étrangères détenues par les banques centrales"
+  ]
+ },
+ {
+  "n": 13,
+  "q": "Parmi les services suivants, lequel est défini comme un service d'investissement ?",
+  "c": [
+   "Le prêt de titres",
+   "La diffusion de moyens de paiement",
+   "La gestion de portefeuille pour compte de tiers"
+  ]
+ },
+ {
+  "n": 14,
+  "q": "Parmi les prestations suivantes, laquelle constitue un service de conseil en investissement ?",
+  "c": [
+   "Une analyse financière relative à des valeurs cotées",
+   "Une recommandation générale sur la répartition du patrimoine",
+   "Une recommandation personnalisée sur une souscription d'OPCVM"
+  ]
+ },
+ {
+  "n": 15,
+  "q": "Selon quelle modalité l'AMF délivre-t-elle, en principe, la carte professionnelle de responsable de la conformité pour les services d'investissement au titulaire de ces cartes ?",
+  "c": [
+   "Par l'organisation d'un examen professionnel",
+   "Par une sélection sur dossier",
+   "Par un tirage au sort"
+  ]
+ },
+ {
+  "n": 16,
+  "q": "Parmi les propositions suivantes, quelles sont celles qui relèvent des règles de bonne conduite que doit avoir un prestataire de services d'investissement (PSI) ?",
+  "c": [
+   "Le PSI doit essentiellement veiller à l'intégrité du marché. La primauté de l'intérêt du client est laissée à la discrétion de chaque PSI",
+   "Le PSI doit, d'une part, agir de manière honnête, loyale et professionnelle pour servir au mieux l'intérêt des clients, et, d'autre part, favoriser l'intégrité du marché",
+   "En tant que professionnel, le PSI a des obligations vis-à-vis de ses clients. La réglementation ne lui impose pas le respect de règles de bonne conduite vis-à-vis du marché"
+  ]
+ },
+ {
+  "n": 17,
+  "q": "À quoi sert une liste de surveillance ?",
+  "c": [
+   "À recenser les personnes qui ont commis un manquement à la règlementation abus de marché",
+   "À indiquer au public les valeurs suivies par l'établissement",
+   "À recenser les émetteurs et les instruments financiers sur lesquels le PSI dispose d'une information privilégiée"
+  ]
+ },
+ {
+  "n": 18,
+  "q": "Dans le cadre de la gestion de FIA (Fonds d'investissement alternatifs), une société de gestion de portefeuille :",
+  "c": [
+   "Doit uniquement identifier les éventuels conflits d'intérêts entre les FIA et ses collaborateurs",
+   "Doit uniquement identifier les conflits d'intérêts entre les FIA et le ou les dépositaires",
+   "Doit identifier tous les conflits d'intérêts – existants et potentiels – susceptibles d'influencer la gestion des FIA"
+  ]
+ },
+ {
+  "n": 19,
+  "q": "La décision du médiateur en cas de litige entre un client et sa banque :",
+  "c": [
+   "Est imposée aux parties",
+   "Met fin au litige",
+   "Peut être acceptée ou non par les parties"
+  ]
+ },
+ {
+  "n": 20,
+  "q": "Le médiateur de l'AMF est compétent en matière :",
+  "c": [
+   "Financière",
+   "D'assurance",
+   "Bancaire"
+  ]
+ },
+ {
+  "n": 21,
+  "q": "En matière de lutte anti-blanchiment, le bénéficiaire effectif de la relation d'affaires :",
+  "c": [
+   "Correspond obligatoirement au représentant légal de l'entreprise",
+   "Désigne la ou les personnes physiques qui contrôlent en dernier lieu, directement ou indirectement, le client ou pour laquelle ou lesquelles l'opération ou l'activité est réalisée",
+   "Est une donnée confidentielle qui n'est pas fournie au banquier lors de l'ouverture de compte"
+  ]
+ },
+ {
+  "n": 22,
+  "q": "Quelle est la mission principale de Tracfin ?",
+  "c": [
+   "Mettre en œuvre les sanctions décidées par l'AMF et concernant la lutte anti blanchiment",
+   "Lutter contre les circuits financiers clandestins, le blanchiment de capitaux et le financement du terrorisme",
+   "Vérifier les procédures de maîtrise des risques sur les produits dérivés"
+  ]
+ },
+ {
+  "n": 23,
+  "q": "L'ALBC (l'Autorité de lutte contre le blanchiment de capitaux et le financement du terrorisme) harmonise au sein de l’Union européenne :",
+  "c": [
+   "Les normes prudentielles de Bâle",
+   "Les procédures de contrôle interne et de vigilance",
+   "Les politiques budgétaires des États membres"
+  ]
+ },
+ {
+  "n": 24,
+  "q": "Qui doit figurer sur la liste d'initiés d’un émetteur, parmi les personnes agissant pour son compte ?",
+  "c": [
+   "Tous les collaborateurs",
+   "Uniquement les analystes financiers actions",
+   "Toutes les personnes disposant d'informations privilégiées"
+  ]
+ },
+ {
+  "n": 25,
+  "q": "Les abus de marché peuvent être :",
+  "c": [
+   "Des manipulations de marché et des opérations d'initiés",
+   "Des opérations de blanchiment",
+   "Des fraudes fiscales"
+  ]
+ },
+ {
+  "n": 26,
+  "q": "Laquelle des situations suivantes est du démarchage bancaire et financier ?",
+  "c": [
+   "Contacter des personnes, sans sollicitation préalable, par tout moyen, pour leur proposer une opération financière",
+   "Contacter des personnes clientes de la banque pour faire le point sur leur situation",
+   "Proposer des instruments financiers à un prospect dans l'agence bancaire"
+  ]
+ },
+ {
+  "n": 27,
+  "q": "Quels sont les produits pour lesquels le démarchage est interdit ?",
+  "c": [
+   "Les obligations convertibles en action",
+   "Les actions des pays émergents",
+   "Les produits dont le risque maximum n'est pas connu au moment de la souscription"
+  ]
+ },
+ {
+  "n": 28,
+  "q": "Quels sont les principaux objectifs de la réglementation en matière de vente à distance ?",
+  "c": [
+   "Elle vise notamment à limiter les situations de conflit d'intérêts",
+   "Elle vise notamment à limiter les risques de blanchiment de capitaux",
+   "Elle vise notamment à encadrer de manière plus stricte le statut et les obligations des personnes habilitées à effectuer du démarchage"
+  ]
+ },
+ {
+  "n": 29,
+  "q": "Les règles du démarchage bancaire et financier :",
+  "c": [
+   "Dispensent le démarcheur d'avoir à respecter la réglementation spécifique au produit vendu",
+   "S'ajoutent à toutes les autres règles en vigueur, lorsque le vendeur a recours à ce mode de commercialisation",
+   "Sont incompatibles avec les règles relatives à la vente à distance"
+  ]
+ },
+ {
+  "n": 30,
+  "q": "Les catégories d'actifs dans lesquels l'OPCVM est habilité à investir :",
+  "c": [
+   "Ne doivent pas être portées à la connaissance des investisseurs car cette information relève du secret des affaires",
+   "Doivent être précisées dans le prospectus",
+   "Doivent être portées à la connaissance des investisseurs uniquement s'ils en font la demande expresse"
+  ]
+ },
+ {
+  "n": 31,
+  "q": "L'affichage du niveau de risque et de rendement d'un produit dans le document d'informations clés (DIC) est présenté :",
+  "c": [
+   "Sur une échelle allant de 1 à 5",
+   "Sur une échelle allant de 1 à 7",
+   "Sur une échelle allant de 1 à 10"
+  ]
+ },
+ {
+  "n": 32,
+  "q": "L'information à recueillir auprès des clients non professionnels, avant tout conseil en investissement :",
+  "c": [
+   "Concerne uniquement leur situation financière",
+   "Concerne uniquement leurs objectifs d'investissement",
+   "Porte également sur leur degré de tolérance au risque et leur capacité à faire face aux pertes"
+  ]
+ },
+ {
+  "n": 33,
+  "q": "Le changement de catégorie de clients :",
+  "c": [
+   "Ne peut résulter que d'un choix discrétionnaire du prestataire de services d'investissement",
+   "Peut être réalisé à l'initiative du prestataire de services d'investissements ou à la demande du client",
+   "Est impossible"
+  ]
+ },
+ {
+  "n": 34,
+  "q": "Le prestataire de services d'investissement doit classer ses clients en trois catégories. Laquelle des affirmations suivantes est correcte ?",
+  "c": [
+   "Les termes « contrepartie éligible » et « client professionnel » sont synonymes",
+   "La contrepartie éligible représente la catégorie de client la moins avertie",
+   "Le client non professionnel peut, sous certaines conditions, demander à changer de catégorie"
+  ]
+ },
+ {
+  "n": 35,
+  "q": "Dans le cadre de la procédure de connaissance de ses clients, le prestataire de services d'investissement autre qu'une société de gestion de portefeuille :",
+  "c": [
+   "Doit informer ses clients de leur catégorisation en qualité de client non professionnel, de client professionnel ou de contrepartie éligible",
+   "Informe ses clients de leur catégorisation uniquement s'ils la demandent",
+   "Ne doit pas informer ses clients de leur catégorisation"
+  ]
+ },
+ {
+  "n": 36,
+  "q": "En matière de catégorisation des clients, les prestataires de services d'investissement autre que les sociétés de gestion de portefeuille :",
+  "c": [
+   "Déterminent librement les différentes catégories dans lesquelles les clients seront classés",
+   "N'ont pas l'obligation d'indiquer à leurs clients dans quelle catégorie ils sont classés",
+   "Établissent et mettent en œuvre des politiques et des procédures appropriées et écrites permettant de classer leurs clients"
+  ]
+ },
+ {
+  "n": 37,
+  "q": "À quel objectif répond l'enregistrement des conversations téléphoniques par un PSI (prestataire de services en investissement) ?",
+  "c": [
+   "Faciliter le contrôle de la régularité et de la conformité des opérations effectuées",
+   "Etablir des statistiques de marché",
+   "Mesurer la vitesse d'exécution de ses opérateurs"
+  ]
+ },
+ {
+  "n": 38,
+  "q": "Le secret bancaire peut être levé en toute légalité lorsque la demande d'information provient :",
+  "c": [
+   "De l'employeur du client",
+   "De la commission de surendettement de la Banque de France",
+   "Des parents du client lorsque celui-ci vient d'être majeur"
+  ]
+ },
+ {
+  "n": 39,
+  "q": "Quelles informations le prestataire de services d'investissement (PSI) doit-il donner à ses clients sur les instruments financiers ?",
+  "c": [
+   "Il doit donner une description générale de la nature et des risques des instruments financiers, en tenant compte notamment de la catégorisation de son client en tant que client non professionnel ou client professionnel",
+   "Il doit donner une copie des articles du règlement général de l'AMF relatifs à toutes les obligations du prestataire vis-à-vis de son client non professionnel",
+   "Aucune obligation d'information ne pèse sur les PSI en matière d'instruments financiers"
+  ]
+ },
+ {
+  "n": 40,
+  "q": "Lorsqu'un prestataire de services d'investissement communique auprès d'un client sur les performances passées d'un instrument financier ou d'un service d'investissement, cette information :",
+  "c": [
+   "Doit constituer un indicateur certain des performances futures",
+   "Doit être le thème central de l'information communiquée",
+   "Doit inclure au moins 5 exercices, et plus si la durée de placement recommandée est supérieure à 5 ans"
+  ]
+ },
+ {
+  "n": 41,
+  "q": "Parmi les informations suivantes, laquelle doit obligatoirement être communiquée par un conseiller en investissements financiers à ses clients avant de leur prodiguer un conseil en investissements financiers ?",
+  "c": [
+   "Si le conseil est indépendant ou non",
+   "Si le conseiller dispose de la certification professionnelle des professionnels des marchés",
+   "Le montant de la couverture de son assurance de responsabilité civile"
+  ]
+ },
+ {
+  "n": 42,
+  "q": "Quelles caractéristiques doit avoir l'information sur un instrument financier adressée par le PSI à ses clients non professionnels ?",
+  "c": [
+   "Lacunaire, non confuse et pertinente",
+   "Incontestable, moderne et vérifiable",
+   "Claire, exacte et non trompeuse"
+  ]
+ },
+ {
+  "n": 43,
+  "q": "La description des risques que le prestataire de service financier doit fournir au client varie en fonction :",
+  "c": [
+   "Des commissions payées par le client",
+   "Du type de client, et donc du niveau de connaissance de celui-ci",
+   "Du rendement moyen de l'investissement"
+  ]
+ },
+ {
+  "n": 44,
+  "q": "En cas de conseil en investissement portant sur une offre groupée de produits ou services, le test d'adéquation :",
+  "c": [
+   "Est supprimé",
+   "Ne porte que sur le produit ou service principal",
+   "Porte sur l'ensemble de l'offre groupée"
+  ]
+ },
+ {
+  "n": 45,
+  "q": "Comment le PSI détermine-t-il l'étendue des informations à collecter auprès de la clientèle ?",
+  "c": [
+   "L'étendue des informations collectées peut être variable, notamment en fonction de la complexité du produit financier proposé",
+   "L'étendue des informations collectées est fixe quel que soit le service ou le produit proposé",
+   "L'étendue des informations collectées peut être variable en fonction de la catégorie socioprofessionnelle du client"
+  ]
+ },
+ {
+  "n": 46,
+  "q": "Dans le cadre de la relation client, le test d'adéquation s'applique :",
+  "c": [
+   "Uniquement aux clients non professionnels",
+   "À la gestion de portefeuille et au conseil en investissement",
+   "À l'exécution simple"
+  ]
+ },
+ {
+  "n": 47,
+  "q": "Lorsque le PSI qui fournit le service de gestion de portefeuille transmet des ordres à un intermédiaire :",
+  "c": [
+   "Il doit s'assurer que le choix de cet intermédiaire procure le meilleur résultat pour son client",
+   "Il ne doit pas prendre en compte les coûts de transactions facturés par cet intermédiaire",
+   "Il doit avoir le consentement préalable de son client sur le choix de cet intermédiaire pour chaque ordre de bourse"
+  ]
+ },
+ {
+  "n": 48,
+  "q": "Quels sont les critères retenus pour définir la « meilleure exécution » ?",
+  "c": [
+   "Les évaluations des internautes sur les lieux d'exécution des ordres (marché réglementé ou système multilatéral de négociation)",
+   "Le prix, le coût, la rapidité et la probabilité d'exécution et de règlement",
+   "La relation de capital entre le PSI et l'entreprise de marché ou le système multilatéral de négociation où se fera l'exécution"
+  ]
+ },
+ {
+  "n": 49,
+  "q": "Quelle obligation doit remplir la politique d'exécution des ordres d'un prestataire de services d'investissement ?",
+  "c": [
+   "La politique d'exécution doit rester confidentielle pour se préserver de la concurrence",
+   "La politique d'exécution des ordres doit être réexaminée tous les deux ans",
+   "La politique d'exécution des ordres doit être approuvée par le client préalablement à la transaction"
+  ]
+ },
+ {
+  "n": 50,
+  "q": "Quelle information sur les tarifications des instruments financiers doit fournir le démarcheur au client ?",
+  "c": [
+   "Le prix total dû ou un historique du prix payé",
+   "Le prix total dû ou une estimation de la performance future",
+   "Le prix total dû ou la base de calcul permettant de le déterminer"
+  ]
+ },
+ {
+  "n": 51,
+  "q": "Que peut comprendre la rémunération de la gestion de portefeuille sous mandat ?",
+  "c": [
+   "La rétrocession de frais d'intermédiation",
+   "La commission de gestion et le cas échéant une quote-part des commissions de souscription",
+   "La commission perçue par un tiers (par exemple de l'émetteur)"
+  ]
+ },
+ {
+  "n": 52,
+  "q": "À quelle condition un mineur peut-il ouvrir tout seul un compte de chèques à son nom ?",
+  "c": [
+   "S'il est accompagné par son père",
+   "S'il est accompagné de deux témoins majeurs",
+   "S'il est émancipé"
+  ]
+ },
+ {
+  "n": 53,
+  "q": "Le secrétariat des commissions de surendettement est assuré par :",
+  "c": [
+   "L'Autorité des marchés financiers (AMF)",
+   "La Banque de France",
+   "La Fédération bancaire française"
+  ]
+ },
+ {
+  "n": 54,
+  "q": "Le FGDR (Fonds de Garantie des Dépôts et de Résolution) s'applique :",
+  "c": [
+   "Aux dépôts espèces et aux dépôts titres",
+   "Aux dépôts espèces, aux dépôts titres et aux coffres forts",
+   "Aux dépôts titres uniquement"
+  ]
+ },
+ {
+  "n": 55,
+  "q": "Comment est déterminé le plafond du système d'indemnisation des investisseurs par le fonds de garantie des titres ?",
+  "c": [
+   "Par investisseur et par établissement pour l'ensemble des comptes titres ouverts dans cet établissement",
+   "Par investisseur et par établissement pour chacun des comptes titres ouverts dans l'établissement",
+   "Par investisseur pour tous ses comptes titres ouverts dans tous les établissements"
+  ]
+ },
+ {
+  "n": 56,
+  "q": "Comment définiriez-vous les CFD (contract for difference) ?",
+  "c": [
+   "Ce sont des instruments financiers peu risqués",
+   "Ce sont des instruments financiers spéculatifs",
+   "Ce sont des OPC dédiés"
+  ]
+ },
+ {
+  "n": 57,
+  "q": "Les obligations à taux fixe :",
+  "c": [
+   "Ne présentent pas de risque de perte en capital",
+   "Présentent un risque de perte en capital",
+   "Sont toujours émises par des États"
+  ]
+ },
+ {
+  "n": 58,
+  "q": "L'impact que peuvent avoir les fluctuations de cours de titres financiers sur les positions d'un investisseur fait partie du :",
+  "c": [
+   "Risque de crédit",
+   "Risque de marché",
+   "Risque de liquidité"
+  ]
+ },
+ {
+  "n": 59,
+  "q": "Quel est le risque majeur supporté par un actionnaire ?",
+  "c": [
+   "Le risque de taux",
+   "Le risque de contrepartie",
+   "Le risque de perte en capital"
+  ]
+ },
+ {
+  "n": 60,
+  "q": "En cas de liquidation de l'entreprise, les actionnaires :",
+  "c": [
+   "Sont les premiers à récupérer une part du capital éventuellement restant avant tous les créanciers",
+   "Sont les deuxièmes à récupérer une part du capital éventuellement restant après le recouvrement des impôts",
+   "Sont les derniers à récupérer une part du capital éventuellement restant après tous les créanciers"
+  ]
+ },
+ {
+  "n": 61,
+  "q": "Des actions de préférence :",
+  "c": [
+   "Peuvent être créées uniquement lors de la constitution de la société",
+   "Ne peuvent jamais être assorties d'un droit de vote",
+   "Peuvent être assorties de droits particuliers de toute nature"
+  ]
+ },
+ {
+  "n": 62,
+  "q": "Une action est :",
+  "c": [
+   "Un titre hybride qui confère un droit de vote",
+   "Un titre de créance qui confère un droit de vote et un droit à la participation aux bénéfices",
+   "Un titre de propriété qui confère un droit de vote et un droit à la participation aux bénéfices"
+  ]
+ },
+ {
+  "n": 63,
+  "q": "D'une manière générale, lorsque les taux d'intérêt baissent, le cours des obligations à taux fixe :",
+  "c": [
+   "Baisse",
+   "Monte",
+   "Reste stable"
+  ]
+ },
+ {
+  "n": 64,
+  "q": "La prime de remboursement d'une obligation s'obtient :",
+  "c": [
+   "En faisant la différence entre le prix de remboursement et la valeur nominale",
+   "En faisant la somme du prix d'émission et du prix de remboursement",
+   "En faisant la différence entre le prix de remboursement et le cours de l'obligation"
+  ]
+ },
+ {
+  "n": 65,
+  "q": "Dans quel cas un investisseur qui achète une obligation et qui la garde jusqu'à l'échéance connaît-il la rentabilité de son investissement dès son acquisition ?",
+  "c": [
+   "Une obligation à coupon zéro",
+   "Une obligation convertible",
+   "Une obligation à taux révisable"
+  ]
+ },
+ {
+  "n": 66,
+  "q": "Lequel de ces instruments permet aux émetteurs de se financer sur le marché monétaire ?",
+  "c": [
+   "Les obligations",
+   "Les actions",
+   "Les titres de créances négociables"
+  ]
+ },
+ {
+  "n": 67,
+  "q": "Comment un investisseur particulier peut-il facilement accéder à des titres de créances négociables à court terme (TCN) généralement réservés aux professionnels ?",
+  "c": [
+   "Par l'intermédiaire d'organismes de placement collectifs",
+   "En demandant un agrément d'établissement de crédit",
+   "En utilisant le service à règlement différé (SRD)"
+  ]
+ },
+ {
+  "n": 68,
+  "q": "Qu'est-ce qu'une obligation convertible en actions ?",
+  "c": [
+   "C'est une action qui offre un droit de vote double à ses détenteurs",
+   "C'est un titre de créance qui donne le droit à son détenteur d'échanger son obligation contre un nombre d'actions déterminé",
+   "C'est un instrument financier qui permet d'emprunter de l'argent auprès d'une banque en échange d'une garantie sur les actions de l'entreprise"
+  ]
+ },
+ {
+  "n": 69,
+  "q": "Les livrets d'épargne populaire :",
+  "c": [
+   "Sont réservés aux personnes ne dépassant pas un certain plafond de revenu",
+   "Sont réservés aux personnes ne payant pas d'impôt",
+   "Sont des produits de placement dont la rémunération est librement fixée par les établissements qui les proposent"
+  ]
+ },
+ {
+  "n": 70,
+  "q": "Lequel des produits suivants est un instrument d'épargne réglementé par la loi ?",
+  "c": [
+   "Livret A",
+   "Livret E",
+   "Les comptes à terme"
+  ]
+ },
+ {
+  "n": 71,
+  "q": "Les produits dérivés :",
+  "c": [
+   "Sont des produits financiers négociés sur les marchés de pays émergents",
+   "Sont des produits dont la valeur fluctue en fonction d'un actif appelé sous-jacent",
+   "Sont des produits uniquement négociés sur des marchés réglementés"
+  ]
+ },
+ {
+  "n": 72,
+  "q": "Le portefeuille d'un OPCVM (organisme de placement collectif en valeurs mobilières) peut être composé :",
+  "c": [
+   "De biens immobiliers physiques",
+   "D'œuvres d'art",
+   "De titres financiers"
+  ]
+ },
+ {
+  "n": 73,
+  "q": "La valeur liquidative d'un OPCVM est égale :",
+  "c": [
+   "Au capital initial de l'OPCVM divisé par le nombre d'actions ou de parts existantes",
+   "Au capital initial de l'OPCVM divisé par le nombre d'actions ou de parts initiales",
+   "À l'actif net de l'OPCVM divisé par le nombre de parts ou d'actions existantes"
+  ]
+ },
+ {
+  "n": 74,
+  "q": "Parmi ces produits, lequel fait partie des « biens divers » ?",
+  "c": [
+   "Un bon de souscription d'actions",
+   "Un contrat d'assurance-vie en unités de compte",
+   "Un placement dans des bouteilles de vin"
+  ]
+ },
+ {
+  "n": 75,
+  "q": "Quel organisme est habilité à enregistrer les intermédiaires en biens divers ?",
+  "c": [
+   "L'AMF",
+   "Le Trésor public",
+   "L'ACPR"
+  ]
+ },
+ {
+  "n": 76,
+  "q": "Au sens de la réglementation, un actif numérique :",
+  "c": [
+   "Porte obligatoirement sur une monnaie ayant un cours légal",
+   "N'est pas transférable à un tiers",
+   "Peut être stocké et échangé électroniquement"
+  ]
+ },
+ {
+  "n": 77,
+  "q": "Les crypto-actifs comme le Bitcoin, l'Ether… :",
+  "c": [
+   "N'ont pas cours légal en France",
+   "Ont cours légal dans l'Union européenne",
+   "Sont échangeables à tout moment contre des euros selon une parité fixée par la BCE"
+  ]
+ },
+ {
+  "n": 78,
+  "q": "Quelle est la mission du dépositaire d'un OPC ?",
+  "c": [
+   "Archiver tous les documents administratifs de l'OPC",
+   "Conserver tous les actifs (titres et espèces) de l'OPC",
+   "Assurer la garde de toutes les procédures de l'OPC"
+  ]
+ },
+ {
+  "n": 79,
+  "q": "Au regard de la réglementation, qu'est-ce qu'une commission de mouvement ?",
+  "c": [
+   "Un montant forfaitaire prélevé annuellement pour la gestion administrative d'un OPCVM",
+   "Les frais d'entrée lors de la souscription d'un OPCVM",
+   "Les frais liés aux opérations d'achat ou de vente portant sur le portefeuille d'un placement collectif ou d'un mandat de gestion"
+  ]
+ },
+ {
+  "n": 80,
+  "q": "Qu'est-ce que l'horizon de placement ?",
+  "c": [
+   "Il s'agit de la durée pendant laquelle un investisseur envisage de détenir un produit financier (court, moyen ou long terme)",
+   "Il s'agit de l'objectif que se fixe un investisseur quant au rendement d'un produit financier (par exemple 2 % sur un an)",
+   "Il s'agit du type de produit financier qu'un investisseur envisage d'acquérir (action, obligation…)"
+  ]
+ },
+ {
+  "n": 81,
+  "q": "Concernant la gestion indicielle, laquelle de ces affirmations est juste ?",
+  "c": [
+   "La performance de l'OPC s'analyse par rapport à l'indice de référence indiqué dans son document d'information clé pour l'investisseur (DIC)",
+   "La performance de l'OPC repose uniquement sur les anticipations de l'investisseur",
+   "Les risques de pertes de l'OPC sont liés uniquement aux variations de son capital"
+  ]
+ },
+ {
+  "n": 82,
+  "q": "Un mandat de gestion doit notamment mentionner :",
+  "c": [
+   "Le nom du comptable de la société de gestion",
+   "L'objectif de gestion et les catégories d'instruments financiers que peut comporter le portefeuille",
+   "La rentabilité certaine sur 12 et 24 mois"
+  ]
+ },
+ {
+  "n": 83,
+  "q": "Dans le cadre de la gestion individuelle sous mandat, l'investisseur :",
+  "c": [
+   "Donne procuration au gérant",
+   "S'en remet à la gestion collective",
+   "Gère son portefeuille sur internet"
+  ]
+ },
+ {
+  "n": 84,
+  "q": "Un OPCVM classé dans la catégorie « obligations et autres titres de créance » :",
+  "c": [
+   "N'est pas sensible aux taux d'intérêt",
+   "Est sensible aux taux d'intérêt",
+   "Est principalement soumis aux risques de variations de l'indice Nikkei"
+  ]
+ },
+ {
+  "n": 85,
+  "q": "Les OPC sont constitués :",
+  "c": [
+   "D'OPCVM exclusivement",
+   "De FIA exclusivement",
+   "D'OPCVM et de FIA"
+  ]
+ },
+ {
+  "n": 86,
+  "q": "L'organisme de placement collectif immobilier est :",
+  "c": [
+   "Une catégorie de FIA",
+   "Une catégorie d'OPCVM",
+   "Un fonds non régulé"
+  ]
+ },
+ {
+  "n": 87,
+  "q": "Le type de fonds qui convient aux clients ayant un profil de risque « sécurité » est :",
+  "c": [
+   "Un fonds monétaire",
+   "Un fonds alternatif",
+   "Un fonds actions"
+  ]
+ },
+ {
+  "n": 88,
+  "q": "Dans le cadre de l'investissement socialement responsable (ISR), quel fonds parmi les suivants correspond à un fonds d'exclusion ?",
+  "c": [
+   "Un fonds qui sélectionne les entreprises aux meilleures pratiques en matière de développement durable",
+   "Un fonds qui n'investit pas dans certains secteurs jugés risqués en matière environnementale ou sociale (OGM, nucléaire, armement, jeu, tabac...)",
+   "Un fonds qui investit dans des secteurs liés au développement durable tels que les énergies renouvelables, l'eau, la santé, ou plus généralement le changement climatique"
+  ]
+ },
+ {
+  "n": 89,
+  "q": "Qu'est ce qu'un fonds solidaire ?",
+  "c": [
+   "Un fonds nourricier qui reverse une partie de ses surperformances aux autres fonds",
+   "Un fonds dont une partie est investie dans des projets dits d'utilité sociale",
+   "Un fonds issu de la fusion de deux fonds par échange de parts"
+  ]
+ },
+ {
+  "n": 90,
+  "q": "Qu'est-ce que le label Greenfin ?",
+  "c": [
+   "Un label créé par le ministère de la Transition Écologique et Solidaire, attribué aux fonds investissant dans l'économie verte et excluant les entreprises opérant dans le secteur des énergies fossiles",
+   "Un label européen créé en 2016 par la Commission européenne et attribué aux fonds investissant dans des entreprises aux pratiques responsables en matière environnementale",
+   "Un label européen attribué aux obligations d'entreprises respectant des critères environnementaux et sociétaux"
+  ]
+ },
+ {
+  "n": 91,
+  "q": "La stratégie d'investissement qui consiste à privilégier les entreprises les mieux notées d'un point de vue extra-financier indépendamment de leur secteur d'activité, en privilégiant les secteurs les plus vertueux est :",
+  "c": [
+   "L'approche Best-in-class",
+   "L'approche Best-effort",
+   "L'approche Best-in-universe"
+  ]
+ },
+ {
+  "n": 92,
+  "q": "La notation extra-financière est :",
+  "c": [
+   "Une notation qui se base uniquement sur la performance économique d'une entreprise",
+   "Une notation qui ne se base pas uniquement sur les performances économiques d'une entreprise mais sur son respect de l'environnement, des valeurs sociales et de gouvernance",
+   "Une notation qui se base uniquement sur la qualité des dirigeants d'une entreprise"
+  ]
+ },
+ {
+  "n": 93,
+  "q": "Parmi les principales stratégies d'investissement socialement responsable, on retrouve :",
+  "c": [
+   "L'approche « Best-in-class »",
+   "L'approche « CORE »",
+   "L'approche « value added »"
+  ]
+ },
+ {
+  "n": 94,
+  "q": "L'investissement socialement responsable (ISR) :",
+  "c": [
+   "Allie la performance financière et la garantie du capital investi",
+   "Allie le développement durable et la garantie du capital investi",
+   "Allie la performance financière et le développement durable"
+  ]
+ },
+ {
+  "n": 95,
+  "q": "Dans le cadre d'une gestion ISR (investissement socialement responsable), il est possible d'adopter une approche Best-in-class . Elle consiste à :",
+  "c": [
+   "Sélectionner des entreprises uniquement présentes dans les secteurs d'activité liés au développement durable",
+   "Choisir les meilleures entreprises, d'un point de vue extra-financier, tous secteurs confondus",
+   "Sélectionner les meilleures entreprises d'un point de vue extra-financier, pour chaque secteur d'activité"
+  ]
+ },
+ {
+  "n": 96,
+  "q": "Le label ISR (investissement socialement responsable) impose une transparence renforcée. Notamment :",
+  "c": [
+   "La nationalité des dirigeants du fonds doit être communiquée aux investisseurs",
+   "Un rapport sur la gestion ESG doit être communiqué aux investisseurs sur une base au moins annuelle",
+   "La rémunération des dirigeants doit être communiquée aux investisseurs sur une base mensuelle"
+  ]
+ },
+ {
+  "n": 97,
+  "q": "Un OPCVM peut obtenir le label Greenfin si son portefeuille est totalement investi :",
+  "c": [
+   "Dans des entreprises entrant dans le champ de la transition énergétique et écologique et de la lutte contre le changement climatique (éco-activités)",
+   "Dans des entreprises spécialisées dans l'exploitation forestière",
+   "Dans des entreprises du secteur des énergies fossiles"
+  ]
+ },
+ {
+  "n": 98,
+  "q": "Le label ISR a été créé par :",
+  "c": [
+   "Le ministère de l'Environnement",
+   "Le ministère de l'Économie et des Finances",
+   "L'AMF"
+  ]
+ },
+ {
+  "n": 99,
+  "q": "Que peut intégrer la notation extra-financière ?",
+  "c": [
+   "Elle peut intégrer une notation sur la capacité de remboursement de l'entreprise",
+   "Elle peut intégrer l'étude de la qualité de codes de conduite",
+   "Elle peut intégrer l'étude du contrôle-qualité des produits fabriqués"
+  ]
+ },
+ {
+  "n": 100,
+  "q": "Parmi les propositions suivantes, quelle pratique constitue un écoblanchiment (ou greenwashing) ?",
+  "c": [
+   "Un fonds d'investissement communique clairement sur le financement d'un projet d'extraction de pétrole",
+   "Une banque communique sur ses actions en faveur de la lutte contre les discriminations au travers de sa fondation",
+   "Une société de gestion centre sa publicité sur de nombreuses photos de panneaux solaires et d'éoliennes, alors que les fonds gérés n'investissent que dans des entreprises d'extraction d'énergie fossile"
+  ]
+ },
+ {
+  "n": 101,
+  "q": "Quel est le principal objectif du label ISR (investissement socialement responsable) ?",
+  "c": [
+   "Permettre aux épargnants de choisir des placements financiers responsables et durables",
+   "Lister les produits financiers solidaires",
+   "Promouvoir les organismes philanthropiques"
+  ]
+ },
+ {
+  "n": 102,
+  "q": "Quand un fonds investit dans des obligations vertes européennes, qu'est-ce que cela signifie ?",
+  "c": [
+   "Il investit dans des obligations émises par les banques mutualistes",
+   "Il investit dans des obligations qui servent à financer des projets compatibles avec les objectifs du règlement Taxonomie (et ses objectifs environnementaux)",
+   "Il investit dans des obligations dont les émetteurs garantissent l'utilisation de zéro papier pour leur émission"
+  ]
+ },
+ {
+  "n": 103,
+  "q": "Un internalisateur systématique est un prestataire de services d'investissement qui, de façon organisée, fréquente et systématique, négocie pour compte propre en exécutant les ordres de ses clients :",
+  "c": [
+   "Dans le cadre d'un marché réglementé",
+   "Dans le cadre d'un système multilatéral de négociation réglementé",
+   "En dehors d'un marché réglementé"
+  ]
+ },
+ {
+  "n": 104,
+  "q": "Parmi les marchés suivants, lequel est un marché réglementé ?",
+  "c": [
+   "Les compartiments A, B et C d'Euronext",
+   "Euronext Access (anciennement marché libre)",
+   "Le FOREX (Foreign Exchange, marché des changes)"
+  ]
+ },
+ {
+  "n": 105,
+  "q": "Les ordres à seuil de déclenchement permettent aux investisseurs de :",
+  "c": [
+   "S'assurer d'un rendement supérieur en contrepartie d'un risque supérieur",
+   "Définir un niveau de prix à partir duquel l'achat ou la vente est déclenché",
+   "Définir une tranche horaire dans laquelle l'ordre sera déclenché"
+  ]
+ },
+ {
+  "n": 106,
+  "q": "Le code ISIN est une immatriculation :",
+  "c": [
+   "Uniquement pour les sociétés du CAC 40",
+   "Internationale unique pour les instruments financiers",
+   "Renseignant sur le propriétaire du titre"
+  ]
+ },
+ {
+  "n": 107,
+  "q": "Les gestionnaires de systèmes de négociation à carnet d'ordres assurant la cotation de valeurs en continu doivent publier :",
+  "c": [
+   "Au moins les cinq meilleures limites de prix à l'achat et à la vente sur ces valeurs",
+   "Au moins les dix meilleures limites de prix à l'achat et à la vente",
+   "Au moins les vingt meilleures limites de prix à l'achat et à la vente"
+  ]
+ },
+ {
+  "n": 108,
+  "q": "Un animateur de marché :",
+  "c": [
+   "Est chargé de gérer un marché OTC (Over the counter)",
+   "Assure la liquidité d'un titre d'une société cotée",
+   "Négocie les titres à « la corbeille » pour ses clients"
+  ]
+ },
+ {
+  "n": 109,
+  "q": "Les agences de notation :",
+  "c": [
+   "Sont des institutions dépendant du Fonds monétaire international",
+   "Délivrent uniquement des notes à long terme sur les emprunts des États",
+   "Délivrent des notes à court et long terme sur la capacité des emprunteurs à rembourser leur dette"
+  ]
+ },
+ {
+  "n": 110,
+  "q": "La fonction de teneur de compte-conservateur consiste à :",
+  "c": [
+   "Fournir un service d'investissement",
+   "Inscrire les titres financiers sur le compte ouvert au nom de l'investisseur",
+   "Assurer la circulation des instruments financiers entre les adhérents"
+  ]
+ },
+ {
+  "n": 111,
+  "q": "Quel est l'organisme qui garantit la bonne fin des opérations et qui est également la contrepartie unique des opérateurs de marché ?",
+  "c": [
+   "La chambre de compensation",
+   "L'apporteur de liquidités sur Euroclear",
+   "SWIFT"
+  ]
+ },
+ {
+  "n": 112,
+  "q": "Une fois passées les phases de négociation et de compensation, intervient la phase de :",
+  "c": [
+   "Règlement-livraison",
+   "Livraison-inscription",
+   "Virement-livraison"
+  ]
+ },
+ {
+  "n": 113,
+  "q": "Sur les plateformes de financement participatif, les investisseurs peuvent financer des projets sous forme :",
+  "c": [
+   "D'achat d'actions uniquement",
+   "D'achat d'actions ou de dons uniquement",
+   "D'achat d'actions, de prêts ou de dons"
+  ]
+ },
+ {
+  "n": 114,
+  "q": "Une OPA est une :",
+  "c": [
+   "Opération par laquelle une entreprise achète les actions d'une autre entreprise et en devient propriétaire",
+   "Opération par laquelle la chambre de compensation s'interpose entre l'acheteur et le vendeur de titres",
+   "Opération publique anticipée"
+  ]
+ },
+ {
+  "n": 115,
+  "q": "Qu'est-ce que le compte de résultat ?",
+  "c": [
+   "Le compte de résultat regroupe toutes les charges et les produits d'une entreprise pour un exercice comptable",
+   "Le compte de résultat permet d'apprécier la capacité d'une entreprise à autofinancer ses investissements",
+   "Il recense à un instant donné l'ensemble des actifs de l'entreprise d'une part et l'ensemble de son passif d'autre part"
+  ]
+ },
+ {
+  "n": 116,
+  "q": "Le bilan comptable d'une entreprise :",
+  "c": [
+   "Décrit séparément les éléments actifs et passifs de l'entreprise, et fait apparaître, de façon distincte, les capitaux propres",
+   "Récapitule les produits et les charges de l'exercice, sans qu'il soit tenu compte de leur date d'encaissement ou de paiement",
+   "Complète et commente l'information donnée par le compte de résultat"
+  ]
+ },
+ {
+  "n": 117,
+  "q": "Vis-à-vis du marché, les sociétés cotées sur un marché réglementé ont des obligations d'informations périodiques relatives :",
+  "c": [
+   "À leur niveau d'activité et à leur situation financière",
+   "À l'âge de leurs dirigeants",
+   "Au taux de détention d'actions détenues par chaque salarié de l'entreprise"
+  ]
+ },
+ {
+  "n": 118,
+  "q": "L'assiette de l'impôt sur la fortune immobilière est assise :",
+  "c": [
+   "Sur l'ensemble du patrimoine au 1er janvier de l'année d'imposition",
+   "Uniquement sur l'évaluation du portefeuille boursier au 1er janvier de l'année d'imposition",
+   "Sur le patrimoine immobilier du redevable au 1er janvier de l'année d'imposition"
+  ]
+ },
+ {
+  "n": 119,
+  "q": "Les intérêts d'un compte à terme sont imposables :",
+  "c": [
+   "Au PFU ou sur option globale au barème de l'IR",
+   "Au PFU sans option pour le barème de l'IR",
+   "Sont exonérés de toute imposition"
+  ]
+ },
+ {
+  "n": 120,
+  "q": "Pour une entreprise ayant choisi l'imposition à l'impôt sur les sociétés (IS), comment sont imposés les produits financiers générés par ses investissements sur des OPC monétaires ?",
+  "c": [
+   "Ce sont des produits financiers logiquement soumis à l'IS",
+   "Ce sont des produits financiers soumis au prélèvement forfaitaire libératoire (PFL)",
+   "Ce sont des produits dits « exceptionnels » qui ne sont pas soumis à l'IS"
+  ]
+ }
+]

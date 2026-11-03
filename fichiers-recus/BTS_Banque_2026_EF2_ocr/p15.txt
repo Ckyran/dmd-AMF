@@ -1,0 +1,82 @@
+104 - Parmi les marchés suivants, lequel est un marché réglementé ?
+À. Les compartiments A, B et C d'Euronext
+
+B. Euronext Access (anciennement marché libre)
+C. Le FOREX (Foreign Exchange, marché des changes)
+
+105 - Les ordres à seuil
+A. S'assurer d'un rendem
+B. Définir un niveau de p
+C. Définir une tranche h
+
+de déclenchement permettent aux investisseurs de :
+ent Supérieur en contrepartie d'un risque supérieur
+
+rix à partir duquel l'achat ou la vente est déclenché
+oraire dans laquelle l'ordre sera déclenché
+
+106 - Le code ISIN est une immatriculation :
+À. Uniquement pour les sociétés du CAC 40
+
+B. Internationale unique pour les instruments financiers
+C. Renseignant sur le propriétaire du titre
+
+107 - Les gestionnaires de systèmes de négociation à carnet d'ordres assurant la cotation
+de valeurs en continu doivent publier :
+
+À. Au moins les cinq meilleures limites de prix à l'achat et à la vente sur ces valeurs
+B. Au moins les dix meilleures limites de prix à l'achat et à la vente
+C. Au moins les vingt meilleures limites de prix à l'achat et à la vente
+
+108 - Un animateur de marché :
+
+À. Est chargé de gérer un marché OTC (Over the counter)
+B. Assure la liquidité d'un titre d'une société cotée
+
+C. Négocie les titres à « la corbeille » pour ses clients
+
+109 - Les agences de notation :
+
+À. Sont des institutions dépendant du Fonds monétaire international |
+B. Délivrent uniquement des notes à long terme sur les emprunts des États
+
+C. Délivrent des notes à court et long terme sur la capacité des emprunteurs à rembourser leur
+dette
+
+110 - La fonction de teneur de compte-conservateur consiste à :
+A. Fournir un service d'investissement
+
+B. Inscrire les titres financiers sur le compte ouvert au nom de l'investisseur
+C. Assurer la circulation des instruments financiers entre les adhérents
+
+111 - Quel est l'organisme qui garantit la bonne fin des opérations et qui est également la
+contrepartie unique des opérateurs de marché ?
+
+A. La chambre de compensation
+
+B. L'apporteur de liquidités sur Euroclear
+
+C. SWIFT
+
+112 - Une fois passées les phases de négociation et de compensation, intervient la phase
+de :
+
+À. Règlement-livraison
+
+B. Livraison-inscription
+
+C. Virement-livraison
+
+113 - Sur les plateformes de financement participatif, les investisseurs peuvent financer
+des projets sous forme :
+
+À. D'achat d'actions uniquement
+
+B. D'achat d'actions ou de dons uniquement
+
+C. D'achat d'actions, de prêts ou de dons
+
+ion 2026 |
+|BTS BANQUE Session
+|EF2 - Certification professionnelle [_ Code : 26BQEFCP Page :15/16 |
+
