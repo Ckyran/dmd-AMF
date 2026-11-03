@@ -127,6 +127,8 @@ Lis chaque question **deux fois**. Repère les **négations** (« laquelle est f
 | `annexes/` | Questions à risque, moyens mnémotechniques, chiffres clés, mises à jour |
 | `donnees/` | **La base fusionnée** : `Base_AMF_fusionnee.xlsx` (bonnes réponses en jaune, questions à risque en rouge, onglet de répartition), `questions.json` et `questions.csv` (séparateur `;`), avec le thème final, la catégorie d'examen, la bonne réponse, la source, l'alerte du manuel et la leçon de chaque question |
 | `docs/` | **Le site de révision** (voir ci-dessus) |
+| `fichiers-recus/` | Les fichiers que tu envoies dans la conversation, sauvegardés automatiquement (liste dans `INDEX.md`) |
+| `livrables/` | Les fichiers que Claude t'a produits (Excel, PDF…) |
 | `outils/construire_site.py` | Régénère les données du site et les exports JSON/CSV après une modification des leçons ou de la base |
 
 Pour régénérer le site après une modification :
